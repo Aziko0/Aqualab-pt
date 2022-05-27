@@ -1,0 +1,8138 @@
+<!doctype html>
+<html 
+      lang="ru"
+      dir="ltr">
+  <head>
+    <meta name="google-signin-client-id" content="721724668570-nbkv1cfusk7kk4eni4pjvepaus73b13t.apps.googleusercontent.com">
+    <meta name="google-signin-scope"
+          content="profile email https://www.googleapis.com/auth/developerprofiles https://www.googleapis.com/auth/developerprofiles.award">
+    <meta property="og:site_name" content="Google Developers">
+    <meta property="og:type" content="website"><meta name="theme-color" content="#ffffff"><meta charset="utf-8">
+    <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+
+    <link rel="manifest" href="/_pwa/developers/manifest.json"
+          crossorigin="use-credentials">
+    <link rel="preconnect" href="//www.gstatic.com" crossorigin>
+    <link rel="preconnect" href="//fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="//fonts.googleapis.com" crossorigin>
+    <link rel="preconnect" href="//apis.google.com" crossorigin>
+    <link rel="preconnect" href="//www.google-analytics.com" crossorigin><link rel="stylesheet" href="//fonts.googleapis.com/css?family=Google+Sans:400,500|Roboto:400,400italic,500,500italic,700,700italic|Roboto+Mono:400,500,700&display=swap">
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Material+Icons&display=block"><link rel="stylesheet" href="https://www.gstatic.com/devrel-devsite/prod/v2cfe3be7b1735e78718b242e557d4a47f9b52b339aa402465e5ba3f2d269c3cb/developers/css/app.css">
+      <link rel="shortcut icon" href="https://www.gstatic.com/devrel-devsite/prod/v2cfe3be7b1735e78718b242e557d4a47f9b52b339aa402465e5ba3f2d269c3cb/developers/images/favicon.png">
+    <link rel="apple-touch-icon" href="https://www.gstatic.com/devrel-devsite/prod/v2cfe3be7b1735e78718b242e557d4a47f9b52b339aa402465e5ba3f2d269c3cb/developers/images/touchicon-180.png"><link rel="canonical" href="https://developers.google.com/maps?hl=ru"><link rel="search" type="application/opensearchdescription+xml"
+            title="Google Developers" href="https://developers.google.com/s/opensearch.xml">
+      
+
+<title>Платформа Google Карт &nbsp;|&nbsp; Google Developers</title>
+
+<meta property="og:title" content="Платформа Google Карт &nbsp;|&nbsp; Google Developers"><meta name="description" content="Описания платформы Google Карт">
+  <meta property="og:description" content="Описания платформы Google Карт"><meta property="og:url" content="https://developers.google.com/maps?hl=ru"><meta property="og:image" content="https://developers.google.com/maps/images/google-maps-platform-1200x675.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="675"><meta property="og:locale" content="ru"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content="@GMapsPlatform">
+    </head>
+  <body class="maps-landing"
+        template="landing"
+        theme="white"
+        type="article"
+        
+        
+        layout="full"
+        
+        
+        pending>
+    <devsite-progress type="indeterminate" id="app-progress"></devsite-progress>
+  
+    <section class="devsite-wrapper"><devsite-header>
+  
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="devsite-header--inner nocontent">
+  <div class="devsite-top-logo-row-wrapper-wrapper">
+    <div class="devsite-top-logo-row-wrapper">
+      <div class="devsite-top-logo-row">
+        <button type="button" id="devsite-hamburger-menu"
+          class="devsite-header-icon-button button-flat material-icons gc-analytics-event"
+          data-category="Site-Wide Custom Events"
+          data-label="Navigation menu button"
+          visually-hidden
+          aria-label="Open menu">
+        </button>
+        <div class="devsite-product-name-wrapper">
+
+  
+    
+  
+  <a href="https://developers.google.com/maps">
+    
+  <div class="devsite-product-logo-container"
+       
+       
+       
+    size="medium"
+  >
+  
+    
+      <img class="devsite-product-logo"
+           alt="Платформа Google Карт"
+           src="https://developers.google.com/maps/images/maps-icon.svg"
+           srcset=""
+           sizes="64px"
+           loading="lazy">
+    
+  
+  </div>
+  
+  </a>
+  
+
+  
+
+
+
+  
+  
+  <span class="devsite-product-name">
+    <ul class="devsite-breadcrumb-list"
+  >
+  
+  <li class="devsite-breadcrumb-item
+             ">
+    
+    
+    
+      
+      
+        
+  <a href="https://developers.google.com/maps"
+      
+        class="devsite-breadcrumb-link gc-analytics-event"
+      
+        data-category="Site-Wide Custom Events"
+      
+        data-label="Upper Header"
+      
+        data-value="1"
+      
+        track-type="globalNav"
+      
+        track-name="breadcrumb"
+      
+        track-metadata-position="1"
+      
+        track-metadata-eventdetail="Платформа Google Карт"
+      
+    >
+    
+          <h1 class="devsite-product-name">Платформа Google Карт</h1>
+        
+  </a>
+  
+      
+    
+  </li>
+  
+</ul>
+  </span>
+
+</div>
+        <div class="devsite-top-logo-row-middle">
+          <div class="devsite-header-upper-tabs">
+            
+              
+              
+  <devsite-tabs class="upper-tabs">
+
+    <nav class="devsite-tabs-wrapper" aria-label="Upper tabs">
+      
+        
+          <tab  >
+            <a href="https://mapsplatform.google.com/"
+   class="gc-analytics-event "
+   track-type="nav"
+   track-metadata-eventdetail="https://mapsplatform.google.com/"
+   track-metadata-position="nav - обзор"
+   track-metadata-module="primary nav"
+   
+   
+    
+      data-category="home"
+    
+      data-label="navTopMenu"
+    
+      track-name="обзор"
+    
+      data-action="tabClick"
+    
+  >
+  Обзор
+</a>
+
+          </tab>
+        
+      
+        
+          <tab  >
+            <a href="https://mapsplatform.google.com/maps-products/"
+   class="gc-analytics-event "
+   track-type="nav"
+   track-metadata-eventdetail="https://mapsplatform.google.com/maps-products/"
+   track-metadata-position="nav - продукты"
+   track-metadata-module="primary nav"
+   
+   
+    
+      data-category="products"
+    
+      data-label="navTopMenu"
+    
+      track-name="продукты"
+    
+      data-action="tabClick"
+    
+  >
+  Продукты
+</a>
+
+          </tab>
+        
+      
+        
+          <tab  >
+            <a href="https://mapsplatform.google.com/pricing/"
+   class="gc-analytics-event "
+   track-type="nav"
+   track-metadata-eventdetail="https://mapsplatform.google.com/pricing/"
+   track-metadata-position="nav - цены"
+   track-metadata-module="primary nav"
+   
+   
+    
+      data-category="pricing"
+    
+      data-label="navTopMenu"
+    
+      track-name="цены"
+    
+      data-action="tabClick"
+    
+  >
+  Цены
+</a>
+
+          </tab>
+        
+      
+        
+          <tab dropdown
+    dropdown-full
+    
+    
+    >
+  <a href="https://developers.google.com/maps/documentation"
+   class="gc-analytics-event "
+   track-type="nav"
+   track-metadata-eventdetail="https://developers.google.com/maps/documentation"
+   track-metadata-position="nav - документация"
+   track-metadata-module="primary nav"
+   
+   
+    
+      data-category="documentation"
+    
+      data-label="navTopMenu"
+    
+      track-name="документация"
+    
+      data-action="tabClick"
+    
+  >
+  Документация
+</a>
+
+  <a href="#"
+     role="button"
+     aria-haspopup="true"
+     aria-expanded="false"
+     aria-label="Dropdown menu for Документация"
+     track-type="nav"
+     track-metadata-eventdetail="https://developers.google.com/maps/documentation"
+     track-metadata-position="nav - документация"
+     track-metadata-module="primary nav"
+     
+      
+        data-category="documentation"
+      
+        data-label="navTopMenu"
+      
+        track-name="документация"
+      
+        data-action="tabClick"
+      
+    
+     class="devsite-tabs-dropdown-toggle devsite-icon devsite-icon-arrow-drop-down"></a>
+
+  <div class="devsite-tabs-dropdown" aria-label="submenu" hidden>
+    
+    <div class="devsite-tabs-dropdown-content">
+      
+        <div class="devsite-tabs-dropdown-column
+                    ">
+          
+            <ul class="devsite-tabs-dropdown-section
+                       ">
+              
+                <li class="devsite-nav-title" role="heading" tooltip>Начало работы</li>
+              
+              
+              
+                <li class="devsite-nav-item">
+                  <a href="https://developers.google.com/maps/get-started"
+                     track-type="nav"
+                     track-metadata-eventdetail="https://developers.google.com/maps/get-started"
+                     track-metadata-position="nav - документация"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="начало работы"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      Начало работы с платформой Google Карт
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="https://developers.google.com/maps/documentation/api-picker"
+                     track-type="nav"
+                     track-metadata-eventdetail="https://developers.google.com/maps/documentation/api-picker"
+                     track-metadata-position="nav - документация"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="начало работы"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      Выбор API
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="https://developers.google.com/maps/billing-and-pricing/overview"
+                     track-type="nav"
+                     track-metadata-eventdetail="https://developers.google.com/maps/billing-and-pricing/overview"
+                     track-metadata-position="nav - документация"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="начало работы"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      Цены и оплата
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="https://developers.google.com/maps/reporting-and-monitoring/overview"
+                     track-type="nav"
+                     track-metadata-eventdetail="https://developers.google.com/maps/reporting-and-monitoring/overview"
+                     track-metadata-position="nav - документация"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="начало работы"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      Отчеты и отслеживание
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="https://developers.google.com/maps/documentation/get-map-id"
+                     track-type="nav"
+                     track-metadata-eventdetail="https://developers.google.com/maps/documentation/get-map-id"
+                     track-metadata-position="nav - документация"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="начало работы"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      Идентификаторы карт
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="https://developers.google.com/maps/faq"
+                     track-type="nav"
+                     track-metadata-eventdetail="https://developers.google.com/maps/faq"
+                     track-metadata-position="nav - документация"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="начало работы"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      Часто задаваемые вопросы
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="https://developers.google.com/maps/support"
+                     track-type="nav"
+                     track-metadata-eventdetail="https://developers.google.com/maps/support"
+                     track-metadata-position="nav - документация"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="начало работы"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      Поддержка и ресурсы
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="https://developers.google.com/maps/incident-management"
+                     track-type="nav"
+                     track-metadata-eventdetail="https://developers.google.com/maps/incident-management"
+                     track-metadata-position="nav - документация"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="начало работы"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      Управление инцидентами
+                    </div>
+                    
+                  </a>
+                </li>
+              
+            </ul>
+          
+        </div>
+      
+        <div class="devsite-tabs-dropdown-column
+                    ">
+          
+            <ul class="devsite-tabs-dropdown-section
+                       ">
+              
+                <li class="devsite-nav-title" role="heading" tooltip>Maps</li>
+              
+              
+              
+                <li class="devsite-nav-item">
+                  <a href="https://developers.google.com/maps/documentation/javascript"
+                     track-type="nav"
+                     track-metadata-eventdetail="https://developers.google.com/maps/documentation/javascript"
+                     track-metadata-position="nav - документация"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="maps"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      Maps JavaScript API
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="https://developers.google.com/maps/documentation/android-sdk"
+                     track-type="nav"
+                     track-metadata-eventdetail="https://developers.google.com/maps/documentation/android-sdk"
+                     track-metadata-position="nav - документация"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="maps"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      Maps SDK для Android
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="https://developers.google.com/maps/documentation/ios-sdk"
+                     track-type="nav"
+                     track-metadata-eventdetail="https://developers.google.com/maps/documentation/ios-sdk"
+                     track-metadata-position="nav - документация"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="maps"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      Maps SDK для iOS
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="https://developers.google.com/maps/documentation/maps-static"
+                     track-type="nav"
+                     track-metadata-eventdetail="https://developers.google.com/maps/documentation/maps-static"
+                     track-metadata-position="nav - документация"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="maps"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      Maps Static API
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="https://developers.google.com/maps/documentation/streetview"
+                     track-type="nav"
+                     track-metadata-eventdetail="https://developers.google.com/maps/documentation/streetview"
+                     track-metadata-position="nav - документация"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="maps"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      Street View Static API
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="https://developers.google.com/maps/documentation/embed"
+                     track-type="nav"
+                     track-metadata-eventdetail="https://developers.google.com/maps/documentation/embed"
+                     track-metadata-position="nav - документация"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="maps"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      Maps Embed API
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="https://developers.google.com/maps/documentation/urls"
+                     track-type="nav"
+                     track-metadata-eventdetail="https://developers.google.com/maps/documentation/urls"
+                     track-metadata-position="nav - документация"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="maps"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      URL карт
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="https://developers.google.com/maps/documentation/elevation"
+                     track-type="nav"
+                     track-metadata-eventdetail="https://developers.google.com/maps/documentation/elevation"
+                     track-metadata-position="nav - документация"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="maps"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      Maps Elevation API
+                    </div>
+                    
+                  </a>
+                </li>
+              
+            </ul>
+          
+        </div>
+      
+        <div class="devsite-tabs-dropdown-column
+                    ">
+          
+            <ul class="devsite-tabs-dropdown-section
+                       ">
+              
+                <li class="devsite-nav-title" role="heading" tooltip>Routes</li>
+              
+              
+              
+                <li class="devsite-nav-item">
+                  <a href="https://developers.google.com/maps/documentation/directions"
+                     track-type="nav"
+                     track-metadata-eventdetail="https://developers.google.com/maps/documentation/directions"
+                     track-metadata-position="nav - документация"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="routes"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      Directions API
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="https://developers.google.com/maps/documentation/distance-matrix"
+                     track-type="nav"
+                     track-metadata-eventdetail="https://developers.google.com/maps/documentation/distance-matrix"
+                     track-metadata-position="nav - документация"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="routes"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      Distance Matrix API
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="https://developers.google.com/maps/documentation/roads"
+                     track-type="nav"
+                     track-metadata-eventdetail="https://developers.google.com/maps/documentation/roads"
+                     track-metadata-position="nav - документация"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="routes"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      Roads API
+                    </div>
+                    
+                  </a>
+                </li>
+              
+            </ul>
+          
+            <ul class="devsite-tabs-dropdown-section
+                       ">
+              
+                <li class="devsite-nav-title" role="heading" tooltip>Решения</li>
+              
+              
+              
+                <li class="devsite-nav-item">
+                  <a href="https://developers.google.com/maps/solutions"
+                     track-type="nav"
+                     track-metadata-eventdetail="https://developers.google.com/maps/solutions"
+                     track-metadata-position="nav - документация"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="routes"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      Специализированные решения
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="https://developers.google.com/maps/documentation/gaming"
+                     track-type="nav"
+                     track-metadata-eventdetail="https://developers.google.com/maps/documentation/gaming"
+                     track-metadata-position="nav - документация"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="routes"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      Игровые сервисы
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="https://developers.google.com/maps/documentation/transportation-logistics"
+                     track-type="nav"
+                     track-metadata-eventdetail="https://developers.google.com/maps/documentation/transportation-logistics"
+                     track-metadata-position="nav - документация"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="routes"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      Транспорт и логистика
+                    </div>
+                    
+                  </a>
+                </li>
+              
+            </ul>
+          
+        </div>
+      
+        <div class="devsite-tabs-dropdown-column
+                    ">
+          
+            <ul class="devsite-tabs-dropdown-section
+                       ">
+              
+                <li class="devsite-nav-title" role="heading" tooltip>Places</li>
+              
+              
+              
+                <li class="devsite-nav-item">
+                  <a href="https://developers.google.com/maps/documentation/places/web-service"
+                     track-type="nav"
+                     track-metadata-eventdetail="https://developers.google.com/maps/documentation/places/web-service"
+                     track-metadata-position="nav - документация"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="places"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      Places API
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="https://developers.google.com/maps/documentation/places/android-sdk"
+                     track-type="nav"
+                     track-metadata-eventdetail="https://developers.google.com/maps/documentation/places/android-sdk"
+                     track-metadata-position="nav - документация"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="places"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      Places SDK для Android
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="https://developers.google.com/maps/documentation/places/ios-sdk"
+                     track-type="nav"
+                     track-metadata-eventdetail="https://developers.google.com/maps/documentation/places/ios-sdk"
+                     track-metadata-position="nav - документация"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="places"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      Places SDK для iOS
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="https://developers.google.com/maps/documentation/javascript/places"
+                     track-type="nav"
+                     track-metadata-eventdetail="https://developers.google.com/maps/documentation/javascript/places"
+                     track-metadata-position="nav - документация"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="places"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      Библиотека Places, Maps JavaScript API
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="https://developers.google.com/maps/documentation/geocoding"
+                     track-type="nav"
+                     track-metadata-eventdetail="https://developers.google.com/maps/documentation/geocoding"
+                     track-metadata-position="nav - документация"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="places"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      Geocoding API
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="https://developers.google.com/maps/documentation/geolocation"
+                     track-type="nav"
+                     track-metadata-eventdetail="https://developers.google.com/maps/documentation/geolocation"
+                     track-metadata-position="nav - документация"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="places"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      Geolocation API
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="https://developers.google.com/maps/documentation/timezone"
+                     track-type="nav"
+                     track-metadata-eventdetail="https://developers.google.com/maps/documentation/timezone"
+                     track-metadata-position="nav - документация"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="places"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      Time Zone API
+                    </div>
+                    
+                  </a>
+                </li>
+              
+            </ul>
+          
+        </div>
+      
+        <div class="devsite-tabs-dropdown-column
+                    ">
+          
+            <ul class="devsite-tabs-dropdown-section
+                       ">
+              
+                <li class="devsite-nav-title" role="heading" tooltip>Дополнительные ресурсы</li>
+              
+              
+              
+                <li class="devsite-nav-item">
+                  <a href="https://developers.google.com/maps/api-security-best-practices"
+                     track-type="nav"
+                     track-metadata-eventdetail="https://developers.google.com/maps/api-security-best-practices"
+                     track-metadata-position="nav - документация"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="дополнительные ресурсы"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      Рекомендации по обеспечению безопасности доступа к API
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="https://developers.google.com/maps/coverage"
+                     track-type="nav"
+                     track-metadata-eventdetail="https://developers.google.com/maps/coverage"
+                     track-metadata-position="nav - документация"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="дополнительные ресурсы"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      Покрытие Google Карт
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="https://developers.google.com/maps/optimization-guide"
+                     track-type="nav"
+                     track-metadata-eventdetail="https://developers.google.com/maps/optimization-guide"
+                     track-metadata-position="nav - документация"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="дополнительные ресурсы"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      Руководство по оптимизации
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="https://developers.google.com/maps/software-support"
+                     track-type="nav"
+                     track-metadata-eventdetail="https://developers.google.com/maps/software-support"
+                     track-metadata-position="nav - документация"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="дополнительные ресурсы"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      Поддержка мобильных операционных систем и программного обеспечения
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="https://developers.google.com/maps/deprecations"
+                     track-type="nav"
+                     track-metadata-eventdetail="https://developers.google.com/maps/deprecations"
+                     track-metadata-position="nav - документация"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="дополнительные ресурсы"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      Прекращение поддержки
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="https://developers.google.com/maps/asset-tracking-plan"
+                     track-type="nav"
+                     track-metadata-eventdetail="https://developers.google.com/maps/asset-tracking-plan"
+                     track-metadata-position="nav - документация"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="дополнительные ресурсы"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      Отслеживание перемещения объектов
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="https://developers.google.com/maps/root-ca-faq"
+                     track-type="nav"
+                     track-metadata-eventdetail="https://developers.google.com/maps/root-ca-faq"
+                     track-metadata-position="nav - документация"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="дополнительные ресурсы"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      Перенос корневого центра сертификации: часто задаваемые вопросы
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="https://developers.google.com/maps/url-encoding"
+                     track-type="nav"
+                     track-metadata-eventdetail="https://developers.google.com/maps/url-encoding"
+                     track-metadata-position="nav - документация"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="дополнительные ресурсы"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      Кодирование URL
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="https://developers.google.com/maps/third-party-platforms/wordpress"
+                     track-type="nav"
+                     track-metadata-eventdetail="https://developers.google.com/maps/third-party-platforms/wordpress"
+                     track-metadata-position="nav - документация"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="дополнительные ресурсы"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      Работа с WordPress
+                    </div>
+                    
+                  </a>
+                </li>
+              
+            </ul>
+          
+        </div>
+      
+    </div>
+  </div>
+</tab>
+        
+      
+        
+          <tab  >
+            <a href="https://cloud.google.com/blog/products/maps-platform"
+   class="gc-analytics-event "
+   track-type="nav"
+   track-metadata-eventdetail="https://cloud.google.com/blog/products/maps-platform"
+   track-metadata-position="nav - блог"
+   track-metadata-module="primary nav"
+   
+   
+    
+      data-category="blog"
+    
+      data-label="navTopMenu"
+    
+      track-name="блог"
+    
+      data-action="tabClick"
+    
+  >
+  Блог
+</a>
+
+          </tab>
+        
+      
+        
+          <tab dropdown
+    
+    
+    
+    >
+  <a href="https://developers.google.com/maps/developer-community"
+   class="gc-analytics-event "
+   track-type="nav"
+   track-metadata-eventdetail="https://developers.google.com/maps/developer-community"
+   track-metadata-position="nav - сообщество"
+   track-metadata-module="primary nav"
+   
+   
+    
+      data-category="community"
+    
+      data-label="navTopMenu"
+    
+      track-name="сообщество"
+    
+      data-action="tabClick"
+    
+  >
+  Сообщество
+</a>
+
+  <a href="#"
+     role="button"
+     aria-haspopup="true"
+     aria-expanded="false"
+     aria-label="Dropdown menu for Сообщество"
+     track-type="nav"
+     track-metadata-eventdetail="https://developers.google.com/maps/developer-community"
+     track-metadata-position="nav - сообщество"
+     track-metadata-module="primary nav"
+     
+      
+        data-category="community"
+      
+        data-label="navTopMenu"
+      
+        track-name="сообщество"
+      
+        data-action="tabClick"
+      
+    
+     class="devsite-tabs-dropdown-toggle devsite-icon devsite-icon-arrow-drop-down"></a>
+
+  <div class="devsite-tabs-dropdown" aria-label="submenu" hidden>
+    
+    <div class="devsite-tabs-dropdown-content">
+      
+        <div class="devsite-tabs-dropdown-column
+                    ">
+          
+            <ul class="devsite-tabs-dropdown-section
+                       ">
+              
+              
+              
+                <li class="devsite-nav-item">
+                  <a href="https://stackoverflow.com/questions/tagged/google-maps"
+                     track-type="nav"
+                     track-metadata-eventdetail="https://stackoverflow.com/questions/tagged/google-maps"
+                     track-metadata-position="nav - сообщество"
+                     track-metadata-module="tertiary nav"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      Stack Overflow
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="https://github.com/googlemaps/"
+                     track-type="nav"
+                     track-metadata-eventdetail="https://github.com/googlemaps/"
+                     track-metadata-position="nav - сообщество"
+                     track-metadata-module="tertiary nav"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      GitHub
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="https://www.youtube.com/c/GoogleMapsPlatform"
+                     track-type="nav"
+                     track-metadata-eventdetail="https://www.youtube.com/c/GoogleMapsPlatform"
+                     track-metadata-position="nav - сообщество"
+                     track-metadata-module="tertiary nav"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      YouTube
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="https://discord.gg/f4hvx8Rp2q"
+                     track-type="nav"
+                     track-metadata-eventdetail="https://discord.gg/f4hvx8Rp2q"
+                     track-metadata-position="nav - сообщество"
+                     track-metadata-module="tertiary nav"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      Discord
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="https://twitter.com/GMapsPlatform"
+                     track-type="nav"
+                     track-metadata-eventdetail="https://twitter.com/GMapsPlatform"
+                     track-metadata-position="nav - сообщество"
+                     track-metadata-module="tertiary nav"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      Твиттер
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="https://issuetracker.google.com/bookmark-groups/76561"
+                     track-type="nav"
+                     track-metadata-eventdetail="https://issuetracker.google.com/bookmark-groups/76561"
+                     track-metadata-position="nav - сообщество"
+                     track-metadata-module="tertiary nav"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      Система отслеживания ошибок
+                    </div>
+                    
+                  </a>
+                </li>
+              
+            </ul>
+          
+        </div>
+      
+    </div>
+  </div>
+</tab>
+        
+      
+    </nav>
+
+  </devsite-tabs>
+
+            
+           </div>
+          
+<devsite-search
+    aria-expanded="false"
+    aria-haspopup="listbox"
+    enable-signin
+    enable-search
+    enable-suggestions
+      enable-query-completion
+    
+    project-name="Платформа Google Карт"
+    tenant-name="Google Developers"
+    project-scope="/maps"
+    url-scoped="https://developers.google.com/s/results/maps"
+    
+    
+    
+    
+    role="combobox">
+  <form class="devsite-search-form" action="https://developers.google.com/s/results" method="GET">
+    <div class="devsite-search-container">
+      <div class="devsite-searchbox">
+        <input
+          aria-activedescendant=""
+          aria-autocomplete="list"
+          
+          aria-label="Результаты поиска"
+          aria-haspopup="false"
+          aria-multiline="false"
+          aria-label="Окно поиска"
+          autocomplete="off"
+          class="devsite-search-field devsite-search-query"
+          name="q"
+          
+          placeholder="Результаты поиска"
+          role="searchbox"
+          type="text"
+          value=""
+          >
+        <div class="devsite-search-image material-icons" aria-hidden="true"></div>
+      </div>
+      <button type="button"
+              search-open
+              class="devsite-search-button devsite-header-icon-button button-flat material-icons"
+              
+              aria-label="Open search"></button>
+    </div>
+  </form>
+  <button type="button"
+          search-close
+          class="devsite-search-button devsite-header-icon-button button-flat material-icons"
+          
+          aria-label="Close search"></button>
+</devsite-search>
+
+        </div>
+
+        
+
+        
+
+        
+
+        
+<devsite-language-selector>
+  <devsite-select class="devsite-language-selector-menu">
+    
+    <select aria-label="Select your language preference."
+            class="devsite-language-selector-select"
+            name="language"
+            track-name="click"
+            track-type="languageSelector">
+    
+      
+      <option>Language</option>
+    
+    
+      <option value="en"
+              lang="en"
+            >
+        English
+      </option>
+    
+      <option value="id"
+              lang="id"
+            >
+        Bahasa Indonesia
+      </option>
+    
+      <option value="de"
+              lang="de"
+            >
+        Deutsch
+      </option>
+    
+      <option value="es"
+              lang="es"
+            >
+        Español
+      </option>
+    
+      <option value="es_419"
+              lang="es_419"
+            >
+        Español – América Latina
+      </option>
+    
+      <option value="fr"
+              lang="fr"
+            >
+        Français
+      </option>
+    
+      <option value="pt_br"
+              lang="pt_br"
+            >
+        Português – Brasil
+      </option>
+    
+      <option value="ru"
+              lang="ru"
+            >
+        Русский
+      </option>
+    
+      <option value="zh_cn"
+              lang="zh_cn"
+            >
+        中文 – 简体
+      </option>
+    
+      <option value="zh_tw"
+              lang="zh_tw"
+            >
+        中文 – 繁體
+      </option>
+    
+      <option value="ja"
+              lang="ja"
+            >
+        日本語
+      </option>
+    
+      <option value="ko"
+              lang="ko"
+            >
+        한국어
+      </option>
+    
+    </select>
+  </devsite-select>
+</devsite-language-selector>
+
+
+        
+
+        
+          
+          
+          <devsite-user 
+                        
+                        
+                          enable-profiles
+                        
+                        
+                          fp-auth
+                        
+                        id="devsite-user">
+            
+              
+              <span class="button devsite-top-button" aria-hidden="true" visually-hidden>Войти</span>
+            
+        </devsite-user>
+           
+        
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="devsite-collapsible-section
+    
+      devsite-header-no-lower-tabs
+    ">
+    <div class="devsite-header-background">
+      
+        
+          <div class="devsite-product-id-row"
+           >
+            <div class="devsite-product-description-row">
+              
+                
+              
+              
+              <div class="devsite-product-description">
+                Описания платформы Google Карт
+              </div>
+              
+            </div>
+            
+              <div class="devsite-product-button-row">
+  
+
+  
+  <a href="https://cloud.google.com/contact-maps"
+  
+    
+      class="button
+             
+             "
+    
+    
+      
+        data-label="congtact-sales"
+      
+        class="gc-analytics-event"
+      
+        data-action="linkClick"
+      
+        data-category="GMPDevLandingPage"
+      
+    
+    >Связаться с отделом продаж</a>
+
+  
+  <a href="https://console.cloud.google.com/google/maps-apis/start"
+  
+    class="button button-primary
+      "
+    
+    
+      
+        class="gc-analytics-event"
+      
+        data-label="get-started"
+      
+        data-category="GMPDevLandingPage"
+      
+        data-action="linkClick"
+      
+    
+    >Начало работы</a>
+
+</div>
+            
+          </div>
+          
+        
+      
+      
+    </div>
+  </div>
+
+</div>
+
+
+
+  
+</devsite-header>
+      <devsite-book-nav scrollbars hidden>
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="devsite-book-nav-filter
+            hidden">
+  <input type="text"
+         placeholder="Фильтр"
+         
+         aria-label="Введите текст для фильтрации"
+         role="searchbox">
+  
+  <span class="filter-clear-button hidden"
+        data-title="Сбросить фильтр"
+        aria-label="Сбросить фильтр"
+        role="button"
+        tabindex="0"></span>
+</div>
+
+<nav class="devsite-book-nav devsite-nav nocontent"
+     aria-label="Side menu">
+  <div class="devsite-mobile-header">
+    <button type="button"
+            id="devsite-close-nav"
+            class="devsite-header-icon-button button-flat material-icons gc-analytics-event"
+            data-category="Site-Wide Custom Events"
+            data-label="Close navigation"
+            aria-label="Close navigation">
+    </button>
+    <div class="devsite-product-name-wrapper">
+
+  
+    
+  
+  <a href="https://developers.google.com/maps">
+    
+  <div class="devsite-product-logo-container"
+       
+       
+       
+    size="medium"
+  >
+  
+    
+      <img class="devsite-product-logo"
+           alt="Платформа Google Карт"
+           src="https://developers.google.com/maps/images/maps-icon.svg"
+           srcset=""
+           sizes="64px"
+           loading="lazy">
+    
+  
+  </div>
+  
+  </a>
+  
+
+  
+
+
+  
+      <span class="devsite-product-name">
+        
+        
+        <ul class="devsite-breadcrumb-list"
+  >
+  
+  <li class="devsite-breadcrumb-item
+             ">
+    
+    
+    
+      
+      
+        
+  <a href="https://developers.google.com/maps"
+      
+        class="devsite-breadcrumb-link gc-analytics-event"
+      
+        data-category="Site-Wide Custom Events"
+      
+        data-label="Upper Header"
+      
+        data-value="1"
+      
+        track-type="globalNav"
+      
+        track-name="breadcrumb"
+      
+        track-metadata-position="1"
+      
+        track-metadata-eventdetail="Платформа Google Карт"
+      
+    >
+    
+          <h1 class="devsite-product-name">Платформа Google Карт</h1>
+        
+  </a>
+  
+      
+    
+  </li>
+  
+</ul>
+      </span>
+    
+
+</div>
+  </div>
+
+  <div class="devsite-book-nav-wrapper">
+    <div class="devsite-mobile-nav-top">
+      
+        <ul class="devsite-nav-list">
+          
+            <li class="devsite-nav-item">
+              
+  
+  <a href="https://mapsplatform.google.com/"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+      
+        data-category="home"
+      
+        data-label="navTopMenu"
+      
+        track-name="обзор"
+      
+        data-action="tabClick"
+      
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Обзор"
+     track-type="globalNav"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Обзор
+   </span>
+    
+  
+  </a>
+  
+
+  
+              
+            </li>
+          
+            <li class="devsite-nav-item">
+              
+  
+  <a href="https://mapsplatform.google.com/maps-products/"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+      
+        data-category="products"
+      
+        data-label="navTopMenu"
+      
+        track-name="продукты"
+      
+        data-action="tabClick"
+      
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Продукты"
+     track-type="globalNav"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Продукты
+   </span>
+    
+  
+  </a>
+  
+
+  
+              
+            </li>
+          
+            <li class="devsite-nav-item">
+              
+  
+  <a href="https://mapsplatform.google.com/pricing/"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+      
+        data-category="pricing"
+      
+        data-label="navTopMenu"
+      
+        track-name="цены"
+      
+        data-action="tabClick"
+      
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Цены"
+     track-type="globalNav"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Цены
+   </span>
+    
+  
+  </a>
+  
+
+  
+              
+            </li>
+          
+            <li class="devsite-nav-item">
+              
+  
+  <a href="/maps/documentation"
+    
+       class="devsite-nav-title gc-analytics-event
+              devsite-nav-has-children
+              "
+    
+
+    
+      
+        data-category="documentation"
+      
+        data-label="navTopMenu"
+      
+        track-name="документация"
+      
+        data-action="tabClick"
+      
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Документация"
+     track-type="globalNav"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Документация
+   </span>
+    
+    <span class="devsite-nav-icon material-icons" data-icon="forward"
+          >
+    </span>
+    
+  
+  </a>
+  
+
+  
+    <ul class="devsite-nav-responsive-tabs devsite-nav-has-menu
+               ">
+      
+<li class="devsite-nav-item">
+
+  
+  <span
+    
+       class="devsite-nav-title"
+       tooltip
+    
+    
+      
+        data-category="documentation"
+      
+        data-label="navTopMenu"
+      
+        track-name="документация"
+      
+        data-action="tabClick"
+      
+    >
+  
+    <span class="devsite-nav-text" tooltip menu="Документация">
+      More
+   </span>
+    
+    <span class="devsite-nav-icon material-icons" data-icon="forward"
+          menu="Документация">
+    </span>
+    
+  
+  </span>
+  
+
+</li>
+
+    </ul>
+  
+              
+            </li>
+          
+            <li class="devsite-nav-item">
+              
+  
+  <a href="https://cloud.google.com/blog/products/maps-platform"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+      
+        data-category="blog"
+      
+        data-label="navTopMenu"
+      
+        track-name="блог"
+      
+        data-action="tabClick"
+      
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Блог"
+     track-type="globalNav"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Блог
+   </span>
+    
+  
+  </a>
+  
+
+  
+              
+            </li>
+          
+            <li class="devsite-nav-item">
+              
+  
+  <a href="/maps/developer-community"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+      
+        data-category="community"
+      
+        data-label="navTopMenu"
+      
+        track-name="сообщество"
+      
+        data-action="tabClick"
+      
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Сообщество"
+     track-type="globalNav"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Сообщество
+   </span>
+    
+  
+  </a>
+  
+
+  
+    <ul class="devsite-nav-responsive-tabs devsite-nav-has-menu
+               ">
+      
+<li class="devsite-nav-item">
+
+  
+  <span
+    
+       class="devsite-nav-title"
+       tooltip
+    
+    
+      
+        data-category="community"
+      
+        data-label="navTopMenu"
+      
+        track-name="сообщество"
+      
+        data-action="tabClick"
+      
+    >
+  
+    <span class="devsite-nav-text" tooltip menu="Сообщество">
+      More
+   </span>
+    
+    <span class="devsite-nav-icon material-icons" data-icon="forward"
+          menu="Сообщество">
+    </span>
+    
+  
+  </span>
+  
+
+</li>
+
+    </ul>
+  
+              
+            </li>
+          
+          
+          
+        </ul>
+      
+    </div>
+    
+      <div class="devsite-mobile-nav-bottom" role="navigation">
+        
+        
+          
+    
+  
+    
+  
+    
+  
+    
+      
+      <ul class="devsite-nav-list" menu="Документация"
+          aria-label="Side menu" hidden>
+        
+          
+            
+              
+<li class="devsite-nav-item devsite-nav-heading">
+
+  
+  <span
+    
+       class="devsite-nav-title"
+       tooltip
+    
+    >
+  
+    <span class="devsite-nav-text" tooltip >
+      Начало работы
+   </span>
+    
+  
+  </span>
+  
+
+</li>
+
+            
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/maps/get-started"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Начало работы с платформой Google Карт"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Начало работы с платформой Google Карт
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/maps/documentation/api-picker"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Выбор API"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Выбор API
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/maps/billing-and-pricing/overview"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Цены и оплата"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Цены и оплата
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/maps/reporting-and-monitoring/overview"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Отчеты и отслеживание"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Отчеты и отслеживание
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/maps/documentation/get-map-id"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Идентификаторы карт"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Идентификаторы карт
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/maps/faq"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Часто задаваемые вопросы"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Часто задаваемые вопросы
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/maps/support"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Поддержка и ресурсы"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Поддержка и ресурсы
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/maps/incident-management"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Управление инцидентами"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Управление инцидентами
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+          
+        
+          
+            
+              
+<li class="devsite-nav-item devsite-nav-heading">
+
+  
+  <span
+    
+       class="devsite-nav-title"
+       tooltip
+    
+    >
+  
+    <span class="devsite-nav-text" tooltip >
+      Maps
+   </span>
+    
+  
+  </span>
+  
+
+</li>
+
+            
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/maps/documentation/javascript"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Maps JavaScript API"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Maps JavaScript API
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/maps/documentation/android-sdk"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Maps SDK для Android"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Maps SDK для Android
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/maps/documentation/ios-sdk"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Maps SDK для iOS"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Maps SDK для iOS
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/maps/documentation/maps-static"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Maps Static API"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Maps Static API
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/maps/documentation/streetview"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Street View Static API"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Street View Static API
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/maps/documentation/embed"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Maps Embed API"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Maps Embed API
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/maps/documentation/urls"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: URL карт"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      URL карт
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/maps/documentation/elevation"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Maps Elevation API"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Maps Elevation API
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+          
+        
+          
+            
+              
+<li class="devsite-nav-item devsite-nav-heading">
+
+  
+  <span
+    
+       class="devsite-nav-title"
+       tooltip
+    
+    >
+  
+    <span class="devsite-nav-text" tooltip >
+      Routes
+   </span>
+    
+  
+  </span>
+  
+
+</li>
+
+            
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/maps/documentation/directions"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Directions API"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Directions API
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/maps/documentation/distance-matrix"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Distance Matrix API"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Distance Matrix API
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/maps/documentation/roads"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Roads API"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Roads API
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+          
+            
+              
+<li class="devsite-nav-item devsite-nav-heading">
+
+  
+  <span
+    
+       class="devsite-nav-title"
+       tooltip
+    
+    >
+  
+    <span class="devsite-nav-text" tooltip >
+      Решения
+   </span>
+    
+  
+  </span>
+  
+
+</li>
+
+            
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/maps/solutions"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Специализированные решения"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Специализированные решения
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/maps/documentation/gaming"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Игровые сервисы"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Игровые сервисы
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/maps/documentation/transportation-logistics"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Транспорт и логистика"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Транспорт и логистика
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+          
+        
+          
+            
+              
+<li class="devsite-nav-item devsite-nav-heading">
+
+  
+  <span
+    
+       class="devsite-nav-title"
+       tooltip
+    
+    >
+  
+    <span class="devsite-nav-text" tooltip >
+      Places
+   </span>
+    
+  
+  </span>
+  
+
+</li>
+
+            
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/maps/documentation/places/web-service"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Places API"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Places API
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/maps/documentation/places/android-sdk"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Places SDK для Android"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Places SDK для Android
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/maps/documentation/places/ios-sdk"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Places SDK для iOS"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Places SDK для iOS
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/maps/documentation/javascript/places"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Библиотека Places, Maps JavaScript API"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Библиотека Places, Maps JavaScript API
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/maps/documentation/geocoding"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Geocoding API"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Geocoding API
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/maps/documentation/geolocation"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Geolocation API"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Geolocation API
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/maps/documentation/timezone"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Time Zone API"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Time Zone API
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+          
+        
+          
+            
+              
+<li class="devsite-nav-item devsite-nav-heading">
+
+  
+  <span
+    
+       class="devsite-nav-title"
+       tooltip
+    
+    >
+  
+    <span class="devsite-nav-text" tooltip >
+      Дополнительные ресурсы
+   </span>
+    
+  
+  </span>
+  
+
+</li>
+
+            
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/maps/api-security-best-practices"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Рекомендации по обеспечению безопасности доступа к API"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Рекомендации по обеспечению безопасности доступа к API
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/maps/coverage"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Покрытие Google Карт"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Покрытие Google Карт
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/maps/optimization-guide"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Руководство по оптимизации"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Руководство по оптимизации
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/maps/software-support"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Поддержка мобильных операционных систем и программного обеспечения"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Поддержка мобильных операционных систем и программного обеспечения
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/maps/deprecations"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Прекращение поддержки"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Прекращение поддержки
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/maps/asset-tracking-plan"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Отслеживание перемещения объектов"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Отслеживание перемещения объектов
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/maps/root-ca-faq"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Перенос корневого центра сертификации: часто задаваемые вопросы"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Перенос корневого центра сертификации: часто задаваемые вопросы
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/maps/url-encoding"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Кодирование URL"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Кодирование URL
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/maps/third-party-platforms/wordpress"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Работа с WordPress"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Работа с WordPress
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+          
+        
+      </ul>
+    
+  
+    
+  
+    
+      
+      <ul class="devsite-nav-list" menu="Сообщество"
+          aria-label="Side menu" hidden>
+        
+          
+            
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="https://stackoverflow.com/questions/tagged/google-maps"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Stack Overflow"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Stack Overflow
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="https://github.com/googlemaps/"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: GitHub"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      GitHub
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="https://www.youtube.com/c/GoogleMapsPlatform"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: YouTube"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      YouTube
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="https://discord.gg/f4hvx8Rp2q"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Discord"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Discord
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="https://twitter.com/GMapsPlatform"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Твиттер"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Твиттер
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="https://issuetracker.google.com/bookmark-groups/76561"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Система отслеживания ошибок"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Система отслеживания ошибок
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+          
+        
+      </ul>
+    
+  
+        
+        
+      </div>
+    
+  </div>
+</nav>
+        
+      </devsite-book-nav>
+      <section id="gc-wrapper">
+        <main role="main" class="devsite-main-content"
+            
+            >
+          
+          <div class="devsite-sidebar">
+            <div class="devsite-sidebar-content">
+              <devsite-toc class="devsite-nav"
+                           role="navigation"
+                           aria-label="On this page"
+                           depth="2"
+                           scrollbars
+                disabled></devsite-toc>
+              <devsite-recommendations-sidebar class="nocontent devsite-nav">
+              </devsite-recommendations-sidebar>
+            </div>
+          </div>
+          <devsite-content>
+            
+              
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<article class="devsite-article"><style>
+      /* Styles inlined from /maps/styles/maps-landing.css */
+/* Background */
+.maps-landing [background=grey] {
+    background-color: #fbfbfb;
+}
+
+/* Hide header description for this landing page */
+.maps-landing .devsite-product-id-row {
+  justify-content: flex-end;
+}
+
+.maps-landing .devsite-product-description-row {
+  visibility: hidden;
+  display: none;
+}
+
+/* Row Padding & Margins */
+
+.maps-landing .maps-landing-row-pad-top-default {
+  padding-top: 80px !important;;
+  padding-bottom: unset;
+}
+
+.maps-landing .maps-landing-row-pad-top-med {
+  padding-top: 72px !important;;
+  padding-bottom: unset;
+}
+
+.maps-landing .maps-landing-row-pad-top-small {
+  padding-top: 42px !important;
+  padding-bottom: unset;
+}
+
+@media only screen and (max-width: 840px) {
+  .maps-landing .maps-landing-row-pad-top-default {
+    padding-top: 40px !important;;
+  }
+
+  .maps-landing .maps-landing-row-pad-top-med {
+    padding-top: 36px !important;;
+  }
+}
+
+.maps-landing .maps-landing-row-pad-bottom-default {
+  padding-bottom: 80px !important;;
+}
+
+.maps-landing .maps-landing-row-pad-bottom-small {
+  padding-bottom: 42px !important;;
+}
+
+@media only screen and (max-width: 840px) {
+  .maps-landing .maps-landing-row-pad-bottom-default {
+    padding-bottom: 40px !important;;
+  }
+}
+
+.maps-landing .devsite-landing-row-group,
+.maps-landing .devsite-landing-row-html,
+.maps-landing .devsite-landing-row-header {
+  max-width: 1488px;
+}
+
+/* End Row Padding */
+
+/* Typography */
+
+.maps-landing h1,
+.maps-landing h2,
+.maps-landing h3 {
+  color: #202124;
+  margin-bottom: 14px;
+  margin-top: 0;
+}
+
+.maps-landing .devsite-landing-row h1 {
+  font-size: 44px;
+  line-height: 52px;
+}
+
+.maps-landing .devsite-landing-row h2 {
+  font-size: 28px;
+  line-height: 36px;
+}
+
+.maps-landing .devsite-landing-row h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.maps-landing .devsite-landing-row p {
+  font-weight: normal;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  color: #5f6368;
+}
+
+.maps-landing .description-subtitle-text p {
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.no-link {
+  text-decoration: none;
+  color: #5f6368;
+}
+
+/* End Typography */
+
+/* Hero */
+
+.maps-landing .maps-landing-hero {
+  background-image: url('/maps/images/landing/maps-hero.png');
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: contain;
+}
+
+.maps-landing .maps-landing-hero .devsite-landing-row-item-description {
+  max-width: 406px;
+}
+
+
+img {
+    border-radius: 10px;
+    object-fit: contain;
+}
+
+/* End Hero */
+
+/* Code Picker */
+
+.maps-landing .maps-landing-code-picker h2 {
+  margin-bottom: 32px !important;
+}
+
+/* End Code Picker */
+
+/* Tab Section */
+
+.maps-landing .maps-landing-card-tabs devsite-selector,
+.maps-landing .maps-landing-card-tabs devsite-tabs {
+  border: none;
+}
+
+devsite-selector devsite-tabs tab a {
+  font-size: 20px;
+}
+
+devsite-selector>section {
+  padding: 0 !important;
+}
+
+.maps-landing .landing-row-cards .landing-row-item h3 {
+  margin-bottom: 0 !important;
+}
+
+.maps-landing .maps-landing-card-tabs .landing-row-cards {
+  display: flex;
+  justify-content: center;
+  margin: 35px 0 0 0 !important;
+  grid-gap: 24px;
+  grid-template-columns: repeat(4,1fr);
+}
+
+.maps-landing .maps-landing-card-tabs .landing-row-item {
+  max-width: 342px;
+}
+
+@media only screen and (max-width: 840px) {
+  .maps-landing .maps-landing-card-tabs .landing-row-cards {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+
+  .maps-landing .maps-landing-card-tabs .landing-row-item {
+    max-width: unset;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .maps-landing .maps-landing-card-tabs .landing-row-cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+.maps-landing .maps-landing-card-tabs .landing-row-item {
+  border-radius: 8px;
+  overflow: hidden;
+  position: relative;
+  flex: 1 0;
+  min-width: 0;
+}
+
+.maps-landing .maps-landing-card-tabs .landing-row-item img {
+  vertical-align: middle;
+  width: 100%;
+}
+
+.maps-landing .maps-landing-card-tabs .landing-row-item .landing-row-item-description {
+  padding: 16px;
+}
+
+.maps-landing .maps-landing-card-tabs .devsite-tabs-wrapper {
+  justify-content: center;
+}
+
+/* End Tab Section */
+
+/* Basic Card Sections */
+
+.maps-landing .maps-landing-card-row figure {
+  background: none;
+  height: 48px;
+  align-items: center;
+  display: flex;
+  margin: 16px 0 0 16px;
+}
+
+.maps-landing .maps-landing-card-row img {
+  width: 48px;
+}
+
+.maps-landing .maps-landing-card-row .devsite-landing-row-item,
+.maps-landing .maps-landing-api-cols .devsite-landing-row-item,
+.maps-landing .maps-landing-card-tabs .landing-row-item {
+  border: none;
+  box-shadow: 0 1px 2px rgba(60, 64, 67, 0.3), 0 1px 3px rgba(60, 64, 67, 0.15);
+}
+
+.maps-landing .maps-landing-card-row {
+  max-width: 1575px;
+  margin: 0 auto;
+  border-radius: 30px;
+}
+
+/* End Basic Card Sections */
+
+/* Search Section */
+.maps-landing .maps-landing-docs-search {
+  text-align: center;
+}
+
+.maps-landing .maps-landing-docs-search form {
+  max-width: 660px;
+  margin: 25px auto 0;
+  position: relative;
+}
+
+.maps-landing .maps-landing-docs-search .material-icons {
+  color: #5f6368;
+  left: 8px;
+  position: absolute;
+  top: 6px;
+  -webkit-transition: color .2s;
+  transition: color .2s;
+}
+
+.maps-landing .maps-landing-docs-search input {
+  width: 100%;
+  padding: 8px 8px 8px 40px;
+  border-radius: 8px;
+}
+
+.maps-landing .maps-landing-docs-search .devsite-search-image:before {
+  content: 'search';
+}
+
+/* End Search Section */
+
+/* API Cards Section */
+
+.maps-landing .maps-landing-api-cols .devsite-landing-row-group {
+  grid-gap: 48px 24px;
+}
+
+.maps-landing .maps-landing-api-cols .devsite-landing-row-item h3 {
+  margin-bottom: 0 !important;
+}
+
+/* Title for first card of each column */
+.maps-landing .maps-landing-api-cols .devsite-landing-row-column .devsite-landing-row-item:first-of-type h3 {
+  font-size: 22px;
+  line-height: 28px;
+}
+
+.maps-landing .maps-landing-api-cols p {
+  margin: 10px 0;
+}
+
+@media only screen and (min-width: 600px) {
+  .maps-landing .maps-landing-api-cols p {
+    min-height: 48px;
+  }
+}
+
+/* h3 of first column  – blue */
+.maps-landing .maps-landing-api-cols .devsite-landing-row-column:first-of-type h3 {
+  color: #1a73e8;
+}
+
+/* buttons of first column  – blue */
+.maps-landing .maps-landing-api-cols .devsite-landing-row-column:first-of-type .button {
+  border: 1px solid #1a73e8;
+}
+
+/* h3 of second column  – yellow */
+.maps-landing .maps-landing-api-cols .devsite-landing-row-column:nth-of-type(2) h3 {
+  color: #f9ab00;
+}
+
+/* buttons of second column  – yellow */
+.maps-landing .maps-landing-api-cols .devsite-landing-row-column:nth-of-type(2) .button {
+  border: 1px solid #f9ab00;
+}
+
+/* button hover of second column  – yellow */
+.maps-landing .maps-landing-api-cols .devsite-landing-row-column:nth-of-type(2) .button:hover {
+  background: #f9ab0026;
+}
+
+/* h3 of third column  – purple */
+.maps-landing .maps-landing-api-cols .devsite-landing-row-column:nth-of-type(3) h3 {
+  color: #9334e6;
+}
+
+/* buttons of third column  – purple */
+.maps-landing .maps-landing-api-cols .devsite-landing-row-column:nth-of-type(3) .button {
+  border: 1px solid #9334e6;
+}
+
+/* button hover of third column  – purple */
+.maps-landing .maps-landing-api-cols .devsite-landing-row-column:nth-of-type(3) .button:hover {
+  background: #9334e621;
+}
+
+.maps-landing .maps-landing-api-cols .devsite-landing-row-column > .devsite-landing-row-item:nth-of-type(n+2) {
+  margin: 18px 0 0;
+}
+
+.maps-landing .maps-landing-api-cols .devsite-landing-row-item-buttons {
+  padding-top: 10px;
+}
+
+.maps-landing .maps-landing-api-cols .button,
+.maps-landing .maps-landing-card-row .button{
+  border-radius: 11.5px;
+  height: 24px;
+  color: #9aa0a6;
+  font-size: 12px;
+  line-height: 16px;
+  padding: 3px 12px 4px 12px;
+}
+
+/* End API Cards Section */
+
+/* Marquee Sections */
+
+.maps-landing .devsite-landing-row-marquee {
+  padding: 80px 0 !important;
+}
+
+.maps-landing .devsite-landing-row-marquee .devsite-landing-row-item-description-content {
+  margin-bottom: 20px;
+}
+
+.maps-landing .maps-landing-get-started .devsite-landing-row-item-media {
+  grid-column: 2/span 4;
+  display: flex;
+  justify-content: center;
+}
+
+.maps-landing .maps-landing-get-started .devsite-landing-row-item-description {
+  grid-column: 8/span 4;
+}
+
+/* End Marquee Sections */
+
+      </style>
+  
+  
+  
+
+  <div class="devsite-article-meta nocontent" role="navigation">
+    
+    
+    <ul class="devsite-breadcrumb-list"
+  
+    aria-label="Breadcrumb">
+  
+  <li class="devsite-breadcrumb-item
+             ">
+    
+    
+    
+      
+  <a href="https://developers.google.com/"
+      
+        class="devsite-breadcrumb-link gc-analytics-event"
+      
+        data-category="Site-Wide Custom Events"
+      
+        data-label="Breadcrumbs"
+      
+        data-value="1"
+      
+        track-type="globalNav"
+      
+        track-name="breadcrumb"
+      
+        track-metadata-position="1"
+      
+        track-metadata-eventdetail=""
+      
+    >
+    
+        Главная
+      
+  </a>
+  
+    
+  </li>
+  
+  <li class="devsite-breadcrumb-item
+             ">
+    
+      
+      <div class="devsite-breadcrumb-guillemet material-icons" aria-hidden="true"></div>
+    
+    
+    
+      
+  <a href="https://developers.google.com/products"
+      
+        class="devsite-breadcrumb-link gc-analytics-event"
+      
+        data-category="Site-Wide Custom Events"
+      
+        data-label="Breadcrumbs"
+      
+        data-value="2"
+      
+        track-type="globalNav"
+      
+        track-name="breadcrumb"
+      
+        track-metadata-position="2"
+      
+        track-metadata-eventdetail=""
+      
+    >
+    
+        Товары
+      
+  </a>
+  
+    
+  </li>
+  
+  <li class="devsite-breadcrumb-item
+             ">
+    
+      
+      <div class="devsite-breadcrumb-guillemet material-icons" aria-hidden="true"></div>
+    
+    
+    
+      
+  <a href="https://developers.google.com/maps"
+      
+        class="devsite-breadcrumb-link gc-analytics-event"
+      
+        data-category="Site-Wide Custom Events"
+      
+        data-label="Breadcrumbs"
+      
+        data-value="3"
+      
+        track-type="globalNav"
+      
+        track-name="breadcrumb"
+      
+        track-metadata-position="3"
+      
+        track-metadata-eventdetail="Платформа Google Карт"
+      
+    >
+    
+        Платформа Google Карт
+      
+  </a>
+  
+    
+  </li>
+  
+</ul>
+    
+  </div>
+  
+    <devsite-feedback
+  position="header"
+  project-name="Платформа Google Карт"
+  product-id="81777"
+  bucket=""
+  context="Maps API Product Family"
+  version="t-devsite-webserver-20220519-r01-rc00.443818161469630914"
+  data-label="Send Feedback Button"
+  track-type="feedback"
+  track-name="sendFeedbackLink"
+  track-metadata-position="header"
+  
+  
+  
+    
+      project-icon="https://developers.google.com/maps/images/maps-icon.svg"
+    
+  
+  
+  feedback-type="thumb-rating">
+
+  <button>
+  
+    
+    Отправить отзыв
+  
+  </button>
+</devsite-feedback>
+  
+  
+  <devsite-bookmark></devsite-bookmark>
+  <devsite-toc class="devsite-nav"
+               depth="2"
+               devsite-toc-embedded
+               disabled>
+  </devsite-toc>
+
+  
+
+  <div class="devsite-article-body clearfix
+    ">
+
+    
+      
+  <section class="devsite-landing-row devsite-landing-row-1-up devsite-landing-row-50 devsite-landing-row-marquee maps-landing-hero"
+           
+    background="grey"
+  
+           
+           
+    header-position="top"
+  >
+    <div class="devsite-landing-row-inner">
+
+    
+      
+
+      
+
+        <div class="devsite-landing-row-group">
+        
+          <div class="devsite-landing-row-item devsite-landing-row-item-no-media"
+     
+     
+     
+    description-position="bottom"
+  >
+
+  
+
+    
+
+    
+    <div class="devsite-landing-row-item-description"
+         >
+
+      
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id="meta-contenttexthtml-charsetutf-8-http-equivcontent-type-h1-idbuild-awesome-apps-with-googles-knowledge-of-the-real-world-data-textbuild-awesome-apps-with-googles-knowledge-of-the-real-world-google-h1"
+        data-text="Создавайте интересные приложения с данными Google о реальном мире"
+        class="hide-from-toc no-link"
+        tabindex="0">
+      
+  <a href="https://console.cloud.google.com/google/maps-apis/start">
+    
+        <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" /><h1 id="build-awesome-apps-with-google’s-knowledge-of-the-real-world" data-text="Build awesome apps with Google’s knowledge of the real world">Создавайте интересные приложения с данными Google о реальном мире</h1>
+      
+  </a>
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" /><p>Новейшие функции Maps, Routes и Places платформы Google Карт позволяют разрабатывать приложения, в которых можно в режиме реального времени использовать данные об окружающем мире. Команда Google создала эти инструменты специально для разработчиков.</p>
+
+          </div>
+        
+
+        
+
+        
+          <div class="devsite-landing-row-item-buttons">
+  
+
+  
+  <a href="https://console.cloud.google.com/google/maps-apis/start"
+  
+    class="button button-primary
+      "
+    
+    
+      
+        class="gc-analytics-event"
+      
+        data-action="linkClick"
+      
+        data-category="GMPDevLandingPage"
+      
+        data-label="get-started"
+      
+    
+    >Начало работы</a>
+
+  
+  <a href="https://developers.google.com/maps/documentation"
+  
+    class="button
+      "
+    
+    
+      
+        class="gc-analytics-event"
+      
+        data-label="docs"
+      
+        data-category="GMPDevLandingPage"
+      
+        data-action="linkClick"
+      
+    
+    >Документация</a>
+
+</div>
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+        
+        </div>
+      
+
+    
+    </div>
+  </section>
+
+  <section class="devsite-landing-row devsite-landing-row-4-up maps-landing-card-tabs maps-landing-row-pad-top-small"
+           
+           
+           
+    header-position="top"
+  >
+    <div class="devsite-landing-row-inner">
+
+    
+      <div class="devsite-landing-row-html">
+        <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" /><devsite-selector>
+  <section>
+    <h3 id="top-topics" data-text="Top topics">Популярные темы</h3>
+    <section class="landing-row-cards">
+      <div class="landing-row-item">
+        <div class="landing-row-item-media">
+          <figure class="landing-row-item-image">
+            <img alt="Функции карты на базе WebGL – JavaScript" src="/maps/images/landing/webgl.png"/>
+          </figure>
+        </div>
+        <div class="landing-row-item-description">
+          <div class="landing-row-item-body">
+            <h3 data-text="title" class="hide-from-toc" id="webgl-powered-map-features---javascript">
+            <a href="/maps/documentation/javascript/webgl" class="gc-analytics-event" data-category="GMPDevLandingPage" data-action="linkClick: top-topics" data-label="webgl">Функции карты на базе WebGL – JavaScript</a></h3>
+            <p>Создайте новое поколение карт для веб-сервисов с помощью WebGL.</p>
+          </div>
+        </div>
+      </div>
+      <div class="landing-row-item">
+        <div class="landing-row-item-media">
+          <figure class="landing-row-item-image">
+            <img alt="Платформа Google Карт: практические работы" src="/maps/images/landing/codelabs.png"/>
+          </figure>
+        </div>
+        <div class="landing-row-item-description">
+          <div class="landing-row-item-body">
+            <h3 data-text="title" class="hide-from-toc" id="google-maps-platform-codelabs">
+              <a href="https://codelabs.developers.google.com/?cat=mapsplatform" class="gc-analytics-event" data-category="GMPDevLandingPage" data-action="linkClick: top-topics" data-label="codelabs">Платформа Google Карт: практические работы</a></h3>
+            <p>Научитесь работать с продуктами и функциями платформы Google Карт, решая комплексные практические задачи.</p>
+          </div>
+        </div>
+      </div>
+      <div class="landing-row-item">
+        <div class="landing-row-item-media">
+          <figure class="landing-row-item-image">
+            <img alt="Статистика: как повысить ценность благодаря геолокации" src="/maps/images/landing/bcg.png"/>
+          </figure>
+        </div>
+        <div class="landing-row-item-description">
+          <div class="landing-row-item-body">
+            <h3 data-text="title" class="hide-from-toc" id="get-the-report:-unlocking-value-with-location-intelligence">
+              <a href="https://mapsplatform.withgoogle.com/location-intelligence-report/home.html?utm_source=whitepaper&amp;utm_medium=devpage&amp;utm_campaign=FY21-Q1-global-demandgen-website-wd-GMP_BCG_Research&amp;utm_content=bcg" class="gc-analytics-event" data-category="GMPDevLandingPage" data-action="linkClick: top-topics" data-label="report">Статистика: как повысить ценность благодаря геолокации</a></h3>
+            <p>Ознакомьтесь с новой статьей от специалистов Boston Consulting Group и узнайте, как ведущие компании из пяти отраслей используют геоданные для развития бизнеса. </p>
+          </div>
+        </div>
+      </div>
+      <div class="landing-row-item">
+        <div class="landing-row-item-media">
+          <figure class="landing-row-item-image">
+            <img alt="Использование кластеризации маркеров – JavaScript" src="/maps/images/landing/marker_cluster.jpg"/>
+          </figure>
+        </div>
+        <div class="landing-row-item-description">
+          <div class="landing-row-item-body">
+            <h3 data-text="title" class="hide-from-toc" id="using-marker-clustering---javascript">
+              <a href="/maps/documentation/javascript/marker-clustering" class="gc-analytics-event" data-category="GMPDevLandingPage" data-action="linkClick: top-topics" data-label="clustering">Использование кластеризации маркеров – JavaScript</a></h3>
+            <p>Сделайте свои карты более удобными для пользователей с помощью кластеризации маркеров.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>
+  <section>
+    <h3 id="whats-new" data-text="What's new">Что нового</h3>
+    <section class="landing-row-cards">
+      <div class="landing-row-item">
+        <div class="landing-row-item-media">
+          <figure class="landing-row-item-image">
+            <img alt="Режим наложения в WebGL (бета) – JavaScript" src="/maps/images/landing/webgloverlayview.png"/>
+          </figure>
+        </div>
+        <div class="landing-row-item-description">
+          <div class="landing-row-item-body">
+            <h3 data-text="title" class="hide-from-toc" id="webgl-overlay-view-beta---javascript">
+              <a href="/maps/documentation/javascript/webgl/webgl-overlay-view" class="gc-analytics-event" data-category="GMPDevLandingPage" data-action="linkClick: whats-new" data-label="webgl">Режим наложения в WebGL (бета) – JavaScript</a></h3>
+            <p>Визуализируйте 2D и 3D-объекты прямо на векторной базовой карте с помощью Maps JavaScript API.</p>
+          </div>
+        </div>
+      </div>
+      <div class="landing-row-item">
+        <div class="landing-row-item-media">
+          <figure class="landing-row-item-image">
+            <img alt="Наклон и поворот (бета) – JavaScript" src="/maps/images/landing/tilt_rotation.png"/>
+          </figure>
+        </div>
+        <div class="landing-row-item-description">
+          <div class="landing-row-item-body">
+            <h3 data-text="title" class="hide-from-toc" id="tilt-and-rotation-beta---javascript">
+              <a href="/maps/documentation/javascript/webgl/tilt-rotation" class="gc-analytics-event" data-category="GMPDevLandingPage" data-action="linkClick: whats-new" data-label="tilt-rotation">Наклон и поворот (бета) – JavaScript</a></h3>
+            <p>Наклоняйте и поворачивайте векторную базовую карту в трех измерениях как вручную, так и программно.</p>
+          </div>
+        </div>
+      </div>
+      <div class="landing-row-item">
+        <div class="landing-row-item-media">
+          <figure class="landing-row-item-image">
+            <img alt="Интегрированное управление камерой – JavaScript" src="/maps/images/landing/camera_controls.png"/>
+          </figure>
+        </div>
+        <div class="landing-row-item-description">
+          <div class="landing-row-item-body">
+            <h3 data-text="title" class="hide-from-toc" id="integrated-camera-controls---javascript">
+              <a href="http://goo.gle/map-move-camera" class="gc-analytics-event" data-category="GMPDevLandingPage" data-action="linkClick: whats-new" data-label="camera">Интегрированное управление камерой – JavaScript</a></h3>
+            <p>Одновременно меняйте наклон, направление, масштабирование и центрирование, чтобы анимация движения камеры была плавной.</p>
+          </div>
+        </div>
+      </div>
+      <div class="landing-row-item">
+        <div class="landing-row-item-media">
+          <figure class="landing-row-item-image">
+            <img alt="Облачные стили карты – Веб" src="/maps/images/landing/styling.jpg"/>
+          </figure>
+        </div>
+        <div class="landing-row-item-description">
+          <div class="landing-row-item-body">
+            <h3 data-text="title" class="hide-from-toc" id="cloud-based-maps-styling---web">
+              <a href="http://goo.gle/maps-platform-io21-announcements" class="gc-analytics-event" data-category="GMPDevLandingPage" data-action="linkClick: whats-new" data-label="styling">Облачные стили карты – Веб</a></h3>
+            <p>Задавайте самые разные настройки для внешнего вида и поведения своей карты. Теперь эта возможность доступна для Maps JavaScript API и Maps Static API.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>
+  <section>
+    <h3 id="tutorials" data-text="Tutorials">Руководства</h3>
+    <section class="landing-row-cards">
+      <div class="landing-row-item">
+        <div class="landing-row-item-media">
+          <figure class="landing-row-item-image">
+            <img alt="Практическая работа: создание более продвинутых карт с помощью WebGL – JavaScript" src="/maps/images/landing/webgl_codelab.png"/>
+          </figure>
+        </div>
+        <div class="landing-row-item-description">
+          <div class="landing-row-item-body">
+            <h3 data-text="title" class="hide-from-toc" id="codelab:-building-webgl-accelerated-map-experiences---javascript">
+              <a href="/codelabs/maps-platform/webgl" class="gc-analytics-event" data-category="GMPDevLandingPage" data-action="linkClick: tutorials" data-label="webgl">Практическая работа: создание более продвинутых карт с помощью WebGL – JavaScript</a></h3>
+            <p>Узнайте, как визуализировать 3D-объекты на карте, а также анимировать движения камеры в трехмерном пространстве с помощью наклона, поворота и режима наложения в WebGL.</p>
+          </div>
+        </div>
+      </div>
+      <div class="landing-row-item">
+        <div class="landing-row-item-media">
+          <figure class="landing-row-item-image">
+            <img alt="Практическая работа: как добавить карту в свое мобильное приложение с помощью SwiftUI – iOS" src="/maps/images/landing/swift_codelab.png"/>
+          </figure>
+        </div>
+        <div class="landing-row-item-description">
+          <div class="landing-row-item-body">
+            <h3 data-text="title" class="hide-from-toc" id="codelab:-add-a-map-to-your-mobile-app-with-swiftui---ios">
+              <a href="/codelabs/maps-platform/maps-platform-ios-swiftui" class="gc-analytics-event" data-category="GMPDevLandingPage" data-action="linkClick: tutorials" data-label="swiftui">Практическая работа: как добавить карту в свое мобильное приложение с помощью SwiftUI – iOS</a></h3>
+            <p>Узнайте, как интегрировать Maps SDK для iOS в свои мобильные приложения с помощью SwiftUI.</p>
+          </div>
+        </div>
+      </div>
+      <div class="landing-row-item">
+        <div class="landing-row-item-media">
+          <figure class="landing-row-item-image">
+            <img alt="Практическая работа: как добавить карту в приложение Android – Kotlin" src="/maps/images/landing/android_codelab.png"/>
+          </figure>
+        </div>
+        <div class="landing-row-item-description">
+          <div class="landing-row-item-body">
+            <h3 data-text="title" class="hide-from-toc" id="codelab:-add-a-map-to-your-android-app---kotlin">
+              <a href="/codelabs/maps-platform/maps-platform-101-android" class="gc-analytics-event" data-category="GMPDevLandingPage" data-action="linkClick: tutorials" data-label="kotlin">Практическая работа: как добавить карту в приложение Android – Kotlin</a></h3>
+            <p>Изучите основы использования Maps SDK для Android.</p>
+          </div>
+        </div>
+      </div>
+      <div class="landing-row-item">
+        <div class="landing-row-item-media">
+          <figure class="landing-row-item-image">
+            <img alt="Практическая работа по deck.gl" src="/maps/images/landing/deck.jpg"/>
+          </figure>
+        </div>
+        <div class="landing-row-item-description">
+          <div class="landing-row-item-body">
+            <h3 data-text="title" class="hide-from-toc" id="codelab:-data-visualization-with-deck.gl---javascript"><a href="https://codelabs.developers.google.com/codelabs/maps-deck-gl" class="gc-analytics-event" data-category="GMPDevLandingPage" data-action="linkClick: tutorials" data-label="deckgl">Практическая работа: визуализация данных с помощью deck.gl – JavaScript</a></h3>
+            <p>Визуализируйте геопространственные данные в нужном масштабе с использованием deck.gl и Maps JavaScript API.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>
+</devsite-selector>
+
+      </div>
+
+    
+    </div>
+  </section>
+
+  <section class="devsite-landing-row devsite-landing-row-1-up maps-landing-row-pad-top-med maps-landing-docs-search"
+           
+           
+           
+    header-position="top"
+  >
+    <div class="devsite-landing-row-inner">
+
+    
+      <div class="devsite-landing-row-html">
+        <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" /><h2 id="read-the-docs" data-text="Read the docs">Документация</h2> <form action="/s/results/maps">
+  <div class="devsite-search-image material-icons" aria-hidden="true" translate="no">
+  </div><input type="text" name="q" placeholder="Поиск в документации"/>
+</form>
+
+      </div>
+
+    
+    </div>
+  </section>
+
+  <section class="devsite-landing-row devsite-landing-row-3-up devsite-landing-row-cards maps-landing-api-cols maps-landing-row-pad-top-default"
+           
+           
+           
+    header-position="top"
+  >
+    <div class="devsite-landing-row-inner">
+
+    
+      
+
+      
+        <div class="devsite-landing-row-group">
+        
+          <div class="devsite-landing-row-column">
+            
+            
+            
+              <div class="devsite-landing-row-item"
+     
+     
+     
+    description-position="bottom"
+  >
+
+  
+
+    
+<div class="devsite-landing-row-item-media
+            ">
+  
+    <figure class="devsite-landing-row-item-image">
+  
+    
+  
+  
+    <img alt=""
+         
+         src="https://developers.google.com/maps/images/landing/maps-api.png"
+         srcset="https://developers.google.com/maps/images/landing/maps-api_36.png 36w,https://developers.google.com/maps/images/landing/maps-api_48.png 48w,https://developers.google.com/maps/images/landing/maps-api_72.png 72w,https://developers.google.com/maps/images/landing/maps-api_96.png 96w,https://developers.google.com/maps/images/landing/maps-api_480.png 480w,https://developers.google.com/maps/images/landing/maps-api_720.png 720w,https://developers.google.com/maps/images/landing/maps-api_856.png 856w,https://developers.google.com/maps/images/landing/maps-api_960.png 960w,https://developers.google.com/maps/images/landing/maps-api_1440.png 1440w,https://developers.google.com/maps/images/landing/maps-api_1920.png 1920w,https://developers.google.com/maps/images/landing/maps-api_2880.png 2880w"
+         
+         
+         sizes="(max-width: 840px) 50vw, 464px"
+         loading="lazy"
+         >
+  
+  
+  
+</figure>
+  
+</div>
+
+
+    
+    <div class="devsite-landing-row-item-description"
+         >
+
+      
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id="maps"
+        data-text="Maps"
+        class="hide-from-toc no-link"
+        tabindex="0">
+      
+    
+        Maps
+      
+  
+    </h3>
+  
+
+        
+
+        
+
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+            
+              <div class="devsite-landing-row-item devsite-landing-row-item-no-media"
+     
+     
+     
+    description-position="bottom"
+  >
+
+  
+
+    
+
+    
+    <div class="devsite-landing-row-item-description"
+         >
+
+      
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id="maps-sdk"
+        data-text="Maps SDK"
+        class="hide-from-toc no-link"
+        tabindex="0">
+      
+    
+        Maps SDK
+      
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" /><p>Добавляйте в приложения динамические карты для мобильных и веб-платформ.</p>
+
+          </div>
+        
+
+        
+
+        
+          <div class="devsite-landing-row-item-buttons">
+  
+
+  
+  <a href="https://developers.google.com/maps/documentation/javascript"
+  
+    class="button
+      "
+    
+    
+      
+        data-label="docs-js-api"
+      
+        data-category="GMPDevLandingPage"
+      
+        data-action="linkClick"
+      
+        class="gc-analytics-event"
+      
+    
+    >JS</a>
+
+  
+  <a href="https://developers.google.com/maps/documentation/android-sdk"
+  
+    class="button
+      "
+    
+    
+      
+        data-category="GMPDevLandingPage"
+      
+        data-label="docs-android-sdk"
+      
+        data-action="linkClick"
+      
+        class="gc-analytics-event"
+      
+    
+    >Android</a>
+
+  
+  <a href="https://developers.google.com/maps/documentation/ios-sdk"
+  
+    class="button
+      "
+    
+    
+      
+        class="gc-analytics-event"
+      
+        data-category="GMPDevLandingPage"
+      
+        data-label="docs-ios-sdk"
+      
+        data-action="linkClick"
+      
+    
+    >iOS</a>
+
+</div>
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+            
+              <div class="devsite-landing-row-item devsite-landing-row-item-no-media"
+     
+     
+     
+    description-position="bottom"
+  >
+
+  
+
+    
+
+    
+    <div class="devsite-landing-row-item-description"
+         >
+
+      
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id=""
+        data-text="Встроенные и статические карты"
+        class="hide-from-toc no-link"
+        tabindex="0">
+      
+    
+        Встроенные и статические карты
+      
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" /><p>Добавьте на свой сайт статическое изображение карты или интерактивную карту, встроенную в окно iframe.</p>
+
+          </div>
+        
+
+        
+
+        
+          <div class="devsite-landing-row-item-buttons">
+  
+
+  
+  <a href="https://developers.google.com/maps/documentation/maps-static"
+  
+    class="button
+      "
+    
+    
+      
+        data-category="GMPDevLandingPage"
+      
+        data-label="docs-static-api"
+      
+        data-action="linkClick"
+      
+        class="gc-analytics-event"
+      
+    
+    >Статическое изображение</a>
+
+  
+  <a href="https://developers.google.com/maps/documentation/embed"
+  
+    class="button
+      "
+    
+    
+      
+        data-label="docs-embed-api"
+      
+        data-action="linkClick"
+      
+        data-category="GMPDevLandingPage"
+      
+        class="gc-analytics-event"
+      
+    
+    >Динамическое окно iframe</a>
+
+</div>
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+            
+              <div class="devsite-landing-row-item devsite-landing-row-item-no-media"
+     
+     
+     
+    description-position="bottom"
+  >
+
+  
+
+    
+
+    
+    <div class="devsite-landing-row-item-description"
+         >
+
+      
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id=""
+        data-text="Изображения Просмотра улиц"
+        class="hide-from-toc no-link"
+        tabindex="0">
+      
+    
+        Изображения Просмотра улиц
+      
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" /><p>Добавляйте в приложения панорамы Просмотра улиц.</p>
+
+          </div>
+        
+
+        
+
+        
+          <div class="devsite-landing-row-item-buttons">
+  
+
+  
+  <a href="https://developers.google.com/maps/documentation/javascript/streetview"
+  
+    class="button
+      "
+    
+    
+      
+        data-action="linkClick"
+      
+        data-label="docs-js-streetview"
+      
+        data-category="GMPDevLandingPage"
+      
+        class="gc-analytics-event"
+      
+    
+    >JS</a>
+
+  
+  <a href="https://developers.google.com/maps/documentation/streetview"
+  
+    class="button
+      "
+    
+    
+      
+        class="gc-analytics-event"
+      
+        data-category="GMPDevLandingPage"
+      
+        data-action="linkClick"
+      
+        data-label="docs-api-streetview"
+      
+    
+    >API</a>
+
+</div>
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+            
+              <div class="devsite-landing-row-item devsite-landing-row-item-no-media"
+     
+     
+     
+    description-position="bottom"
+  >
+
+  
+
+    
+
+    
+    <div class="devsite-landing-row-item-description"
+         >
+
+      
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id="elevation"
+        data-text="Elevation"
+        class="hide-from-toc no-link"
+        tabindex="0">
+      
+    
+        Elevation
+      
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" /><p>Получайте данные о рельефе одного или нескольких местоположений.</p>
+
+          </div>
+        
+
+        
+
+        
+          <div class="devsite-landing-row-item-buttons">
+  
+
+  
+  <a href="https://developers.google.com/maps/documentation/javascript/elevation"
+  
+    class="button
+      "
+    
+    
+      
+        data-category="GMPDevLandingPage"
+      
+        class="gc-analytics-event"
+      
+        data-action="linkClick"
+      
+        data-label="docs-js-elevation"
+      
+    
+    >JS</a>
+
+  
+  <a href="https://developers.google.com/maps/documentation/elevation"
+  
+    class="button
+      "
+    
+    
+      
+        data-action="linkClick"
+      
+        data-label="docs-api-elevation"
+      
+        data-category="GMPDevLandingPage"
+      
+        class="gc-analytics-event"
+      
+    
+    >API</a>
+
+</div>
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+            
+          </div>
+        
+          <div class="devsite-landing-row-column">
+            
+            
+            
+              <div class="devsite-landing-row-item"
+     
+     
+     
+    description-position="bottom"
+  >
+
+  
+
+    
+<div class="devsite-landing-row-item-media
+            ">
+  
+    <figure class="devsite-landing-row-item-image">
+  
+    
+  
+  
+    <img alt=""
+         
+         src="https://developers.google.com/maps/images/landing/routes-api.png"
+         srcset="https://developers.google.com/maps/images/landing/routes-api_36.png 36w,https://developers.google.com/maps/images/landing/routes-api_48.png 48w,https://developers.google.com/maps/images/landing/routes-api_72.png 72w,https://developers.google.com/maps/images/landing/routes-api_96.png 96w,https://developers.google.com/maps/images/landing/routes-api_480.png 480w,https://developers.google.com/maps/images/landing/routes-api_720.png 720w,https://developers.google.com/maps/images/landing/routes-api_856.png 856w,https://developers.google.com/maps/images/landing/routes-api_960.png 960w,https://developers.google.com/maps/images/landing/routes-api_1440.png 1440w,https://developers.google.com/maps/images/landing/routes-api_1920.png 1920w,https://developers.google.com/maps/images/landing/routes-api_2880.png 2880w"
+         
+         
+         sizes="(max-width: 840px) 50vw, 464px"
+         loading="lazy"
+         >
+  
+  
+  
+</figure>
+  
+</div>
+
+
+    
+    <div class="devsite-landing-row-item-description"
+         >
+
+      
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id="routes"
+        data-text="Routes"
+        class="hide-from-toc no-link"
+        tabindex="0">
+      
+    
+        Routes
+      
+  
+    </h3>
+  
+
+        
+
+        
+
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+            
+              <div class="devsite-landing-row-item devsite-landing-row-item-no-media"
+     
+     
+     
+    description-position="bottom"
+  >
+
+  
+
+    
+
+    
+    <div class="devsite-landing-row-item-description"
+         >
+
+      
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id="directions"
+        data-text="Directions"
+        class="hide-from-toc no-link"
+        tabindex="0">
+      
+    
+        Directions
+      
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" /><p>Создавайте маршруты для различных способов передвижения с использованием сведений о загруженности дорог в реальном времени.</p>
+
+          </div>
+        
+
+        
+
+        
+          <div class="devsite-landing-row-item-buttons">
+  
+
+  
+  <a href="https://developers.google.com/maps/documentation/javascript/directions"
+  
+    class="button
+      "
+    
+    
+      
+        class="gc-analytics-event"
+      
+        data-category="GMPDevLandingPage"
+      
+        data-label="docs-js-directions"
+      
+        data-action="linkClick"
+      
+    
+    >JS</a>
+
+  
+  <a href="https://developers.google.com/maps/documentation/directions"
+  
+    class="button
+      "
+    
+    
+      
+        data-label="docs-api-directions"
+      
+        class="gc-analytics-event"
+      
+        data-action="linkClick"
+      
+        data-category="GMPDevLandingPage"
+      
+    
+    >API</a>
+
+</div>
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+            
+              <div class="devsite-landing-row-item devsite-landing-row-item-no-media"
+     
+     
+     
+    description-position="bottom"
+  >
+
+  
+
+    
+
+    
+    <div class="devsite-landing-row-item-description"
+         >
+
+      
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id="distance-matrix"
+        data-text="Distance Matrix"
+        class="hide-from-toc no-link"
+        tabindex="0">
+      
+    
+        Distance Matrix
+      
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" /><p>Рассчитывайте расстояние и время в пути для нескольких пунктов отправления и назначения.</p>
+
+          </div>
+        
+
+        
+
+        
+          <div class="devsite-landing-row-item-buttons">
+  
+
+  
+  <a href="https://developers.google.com/maps/documentation/javascript/distancematrix"
+  
+    class="button
+      "
+    
+    
+      
+        class="gc-analytics-event"
+      
+        data-action="linkClick"
+      
+        data-category="GMPDevLandingPage"
+      
+        data-label="docs-js-distance-matrix"
+      
+    
+    >JS</a>
+
+  
+  <a href="https://developers.google.com/maps/documentation/distance-matrix"
+  
+    class="button
+      "
+    
+    
+      
+        data-action="linkClick"
+      
+        class="gc-analytics-event"
+      
+        data-category="GMPDevLandingPage"
+      
+        data-label="docs-api-distance-matrix"
+      
+    
+    >API</a>
+
+</div>
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+            
+              <div class="devsite-landing-row-item devsite-landing-row-item-no-media"
+     
+     
+     
+    description-position="bottom"
+  >
+
+  
+
+    
+
+    
+    <div class="devsite-landing-row-item-description"
+         >
+
+      
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id="roads"
+        data-text="Roads"
+        class="hide-from-toc no-link"
+        tabindex="0">
+      
+    
+        Roads
+      
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" /><p>Определяйте соседние дороги по координатам.</p>
+
+          </div>
+        
+
+        
+
+        
+          <div class="devsite-landing-row-item-buttons">
+  
+
+  
+  <a href="https://developers.google.com/maps/documentation/roads"
+  
+    class="button
+      "
+    
+    
+      
+        data-label="docs-api-roads"
+      
+        data-category="GMPDevLandingPage"
+      
+        class="gc-analytics-event"
+      
+        data-action="linkClick"
+      
+    
+    >API</a>
+
+</div>
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+            
+          </div>
+        
+          <div class="devsite-landing-row-column">
+            
+            
+            
+              <div class="devsite-landing-row-item"
+     
+     
+     
+    description-position="bottom"
+  >
+
+  
+
+    
+<div class="devsite-landing-row-item-media
+            ">
+  
+    <figure class="devsite-landing-row-item-image">
+  
+    
+  
+  
+    <img alt=""
+         
+         src="https://developers.google.com/maps/images/landing/places-api.png"
+         srcset="https://developers.google.com/maps/images/landing/places-api_36.png 36w,https://developers.google.com/maps/images/landing/places-api_48.png 48w,https://developers.google.com/maps/images/landing/places-api_72.png 72w,https://developers.google.com/maps/images/landing/places-api_96.png 96w,https://developers.google.com/maps/images/landing/places-api_480.png 480w,https://developers.google.com/maps/images/landing/places-api_720.png 720w,https://developers.google.com/maps/images/landing/places-api_856.png 856w,https://developers.google.com/maps/images/landing/places-api_960.png 960w,https://developers.google.com/maps/images/landing/places-api_1440.png 1440w,https://developers.google.com/maps/images/landing/places-api_1920.png 1920w,https://developers.google.com/maps/images/landing/places-api_2880.png 2880w"
+         
+         
+         sizes="(max-width: 840px) 50vw, 464px"
+         loading="lazy"
+         >
+  
+  
+  
+</figure>
+  
+</div>
+
+
+    
+    <div class="devsite-landing-row-item-description"
+         >
+
+      
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id="places"
+        data-text="Places"
+        class="hide-from-toc no-link"
+        tabindex="0">
+      
+    
+        Places
+      
+  
+    </h3>
+  
+
+        
+
+        
+
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+            
+              <div class="devsite-landing-row-item devsite-landing-row-item-no-media"
+     
+     
+     
+    description-position="bottom"
+  >
+
+  
+
+    
+
+    
+    <div class="devsite-landing-row-item-description"
+         >
+
+      
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id="places-api-places-sdk"
+        data-text="Places API и Places SDK"
+        class="hide-from-toc no-link"
+        tabindex="0">
+      
+    
+        Places API и Places SDK
+      
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" /><p>Интегрируйте описания мест, а также функции поиска и автозаполнения Google в свои приложения.</p>
+
+          </div>
+        
+
+        
+
+        
+          <div class="devsite-landing-row-item-buttons">
+  
+
+  
+  <a href="https://developers.google.com/maps/documentation/javascript/places"
+  
+    class="button
+      "
+    
+    
+      
+        class="gc-analytics-event"
+      
+        data-action="linkClick"
+      
+        data-category="GMPDevLandingPage"
+      
+        data-label="docs-js-places"
+      
+    
+    >JS</a>
+
+  
+  <a href="https://developers.google.com/maps/documentation/places/android-sdk"
+  
+    class="button
+      "
+    
+    
+      
+        data-action="linkClick"
+      
+        class="gc-analytics-event"
+      
+        data-category="GMPDevLandingPage"
+      
+        data-label="docs-android-places"
+      
+    
+    >Android</a>
+
+  
+  <a href="https://developers.google.com/maps/documentation/places/ios-sdk"
+  
+    class="button
+      "
+    
+    
+      
+        class="gc-analytics-event"
+      
+        data-category="GMPDevLandingPage"
+      
+        data-action="linkClick"
+      
+        data-label="docs-ios-places"
+      
+    
+    >iOS</a>
+
+  
+  <a href="https://developers.google.com/maps/documentation/places/web-service"
+  
+    class="button
+      "
+    
+    
+      
+        data-category="GMPDevLandingPage"
+      
+        class="gc-analytics-event"
+      
+        data-action="linkClick"
+      
+        data-label="docs-api-places"
+      
+    
+    >API</a>
+
+</div>
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+            
+              <div class="devsite-landing-row-item devsite-landing-row-item-no-media"
+     
+     
+     
+    description-position="bottom"
+  >
+
+  
+
+    
+
+    
+    <div class="devsite-landing-row-item-description"
+         >
+
+      
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id="geocoding"
+        data-text="Geocoding"
+        class="hide-from-toc no-link"
+        tabindex="0">
+      
+    
+        Geocoding
+      
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" /><p>Преобразовывайте координаты в адреса и наоборот.</p>
+
+          </div>
+        
+
+        
+
+        
+          <div class="devsite-landing-row-item-buttons">
+  
+
+  
+  <a href="https://developers.google.com/maps/documentation/javascript/geocoding"
+  
+    class="button
+      "
+    
+    
+      
+        data-action="linkClick"
+      
+        class="gc-analytics-event"
+      
+        data-label="docs-js-geocoding"
+      
+        data-category="GMPDevLandingPage"
+      
+    
+    >JS</a>
+
+  
+  <a href="https://developers.google.com/maps/documentation/geocoding"
+  
+    class="button
+      "
+    
+    
+      
+        data-label="docs-api-geocoding"
+      
+        class="gc-analytics-event"
+      
+        data-action="linkClick"
+      
+        data-category="GMPDevLandingPage"
+      
+    
+    >API</a>
+
+</div>
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+            
+              <div class="devsite-landing-row-item devsite-landing-row-item-no-media"
+     
+     
+     
+    description-position="bottom"
+  >
+
+  
+
+    
+
+    
+    <div class="devsite-landing-row-item-description"
+         >
+
+      
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id="geolocation"
+        data-text="Geolocation"
+        class="hide-from-toc no-link"
+        tabindex="0">
+      
+    
+        Geolocation
+      
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" /><p>Получайте сведения о приблизительном местоположении устройства на основе данных с вышек сотовой связи и узлов Wi-Fi.</p>
+
+          </div>
+        
+
+        
+
+        
+          <div class="devsite-landing-row-item-buttons">
+  
+
+  
+  <a href="https://developers.google.com/maps/documentation/geolocation"
+  
+    class="button
+      "
+    
+    
+      
+        data-label="docs-api-geolocation"
+      
+        class="gc-analytics-event"
+      
+        data-category="GMPDevLandingPage"
+      
+        data-action="linkClick"
+      
+    
+    >API</a>
+
+</div>
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+            
+              <div class="devsite-landing-row-item devsite-landing-row-item-no-media"
+     
+     
+     
+    description-position="bottom"
+  >
+
+  
+
+    
+
+    
+    <div class="devsite-landing-row-item-description"
+         >
+
+      
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id=""
+        data-text="Часовые пояса"
+        class="hide-from-toc no-link"
+        tabindex="0">
+      
+    
+        Часовые пояса
+      
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" /><p>Определяйте часовые пояса для наборов координат.</p>
+
+          </div>
+        
+
+        
+
+        
+          <div class="devsite-landing-row-item-buttons">
+  
+
+  
+  <a href="https://developers.google.com/maps/documentation/timezone"
+  
+    class="button
+      "
+    
+    
+      
+        class="gc-analytics-event"
+      
+        data-category="GMPDevLandingPage"
+      
+        data-label="docs-api-timezones"
+      
+        data-action="linkClick"
+      
+    
+    >API</a>
+
+</div>
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+            
+          </div>
+        
+        </div>
+
+      
+      
+
+    
+    </div>
+  </section>
+
+  <section class="devsite-landing-row devsite-landing-row-1-up maps-landing-code-picker maps-landing-row-pad-top-default maps-landing-row-pad-bottom-default"
+           
+           
+           
+    header-position="top"
+  >
+    <div class="devsite-landing-row-inner">
+
+    
+      <div class="devsite-landing-row-html">
+        <head><meta content="text/html; charset=UTF-8" http-equiv="Content-Type" /></head><body><h2 id="add-major-features.-write-minimal-code." data-text="Add major features. Write minimal code.">Добавление основных функций с минимальным кодом</h2>
+<div class="code-picker-wrapper">
+    <devsite-iframe><iframe src="/maps/index_e500edc601d35c678554e08ddd92b674705d0e565408cbb8dfc79eba5b2f1575.frame" class="framebox inherit-locale " allow="clipboard-write https://developers-dot-devsite-v2-prod.appspot.com" allowfullscreen is-upgraded></iframe></devsite-iframe>
+ </div>
+</body>
+      </div>
+
+    
+    </div>
+  </section>
+
+  <section class="devsite-landing-row devsite-landing-row-4-up devsite-landing-row-cards maps-landing-card-row maps-landing-row-pad-top-small maps-landing-row-pad-bottom-small description-subtitle-text"
+           
+    background="grey"
+  
+           
+           
+    header-position="top"
+  >
+    <div class="devsite-landing-row-inner">
+
+    
+      
+      <header class="devsite-landing-row-header"
+              >
+
+        
+
+        
+        <div class="devsite-landing-row-header-text">
+
+          
+    <h2 id=""
+        data-text="Наше сообщество разработчиков"
+        
+        tabindex="0">
+      
+    
+        Наше сообщество разработчиков
+      
+  
+    </h2>
+  
+
+          
+        </div>
+        
+
+        
+      </header>
+      
+
+      
+
+        <div class="devsite-landing-row-group">
+        
+          <div class="devsite-landing-row-item"
+     
+     
+     
+    description-position="bottom"
+  >
+
+  
+
+    
+<div class="devsite-landing-row-item-media
+            ">
+  
+    <figure class="devsite-landing-row-item-image">
+  
+  <a href="https://twitter.com/GMapsPlatform"
+      
+        class="gc-analytics-event"
+      
+        data-category="GMPDevLandingPage"
+      
+        data-action="linkClick"
+      
+        data-label="twitter"
+      
+    >
+    
+  
+  
+    <img alt=""
+         
+         src="https://developers.google.com/maps/images/landing/twitter.svg"
+         srcset=""
+         
+         
+         sizes="(max-width: 600px) 50vw, (max-width: 840px) 25vw, 342px"
+         loading="lazy"
+         >
+  
+  
+  </a>
+  
+</figure>
+  
+</div>
+
+
+    
+    <div class="devsite-landing-row-item-description"
+         >
+
+      
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id=""
+        data-text="Твиттер"
+        class="hide-from-toc no-link"
+        tabindex="0">
+      
+  <a href="https://twitter.com/GMapsPlatform"
+      
+        class="gc-analytics-event"
+      
+        data-category="GMPDevLandingPage"
+      
+        data-action="linkClick"
+      
+        data-label="twitter"
+      
+    >
+    
+        Твиттер
+      
+  </a>
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" /><p>Последние новости и рекомендации от команды платформы Google Карт.</p>
+
+          </div>
+        
+
+        
+
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+        
+          <div class="devsite-landing-row-item"
+     
+     
+     
+    description-position="bottom"
+  >
+
+  
+
+    
+<div class="devsite-landing-row-item-media
+            ">
+  
+    <figure class="devsite-landing-row-item-image">
+  
+  <a href="https://github.com/googlemaps/"
+      
+        class="gc-analytics-event"
+      
+        data-category="GMPDevLandingPage"
+      
+        data-action="linkClick"
+      
+        data-label="github"
+      
+    >
+    
+  
+  
+    <img alt=""
+         
+         src="https://developers.google.com/site-assets/logo-github.svg"
+         srcset=""
+         
+         
+         sizes="(max-width: 600px) 50vw, (max-width: 840px) 25vw, 342px"
+         loading="lazy"
+         >
+  
+  
+  </a>
+  
+</figure>
+  
+</div>
+
+
+    
+    <div class="devsite-landing-row-item-description"
+         >
+
+      
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id="github"
+        data-text="GitHub"
+        class="hide-from-toc no-link"
+        tabindex="0">
+      
+  <a href="https://github.com/googlemaps/"
+      
+        class="gc-analytics-event"
+      
+        data-category="GMPDevLandingPage"
+      
+        data-action="linkClick"
+      
+        data-label="github"
+      
+    >
+    
+        GitHub
+      
+  </a>
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" /><p>Ознакомьтесь с нашими примерами приложений и утилитами с открытым исходным кодом, которые помогут вам работать быстрее и эффективнее.</p>
+
+          </div>
+        
+
+        
+
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+        
+          <div class="devsite-landing-row-item"
+     
+     
+     
+    description-position="bottom"
+  >
+
+  
+
+    
+<div class="devsite-landing-row-item-media
+            ">
+  
+    <figure class="devsite-landing-row-item-image">
+  
+  <a href="https://www.youtube.com/googlemapsplatform"
+      
+        class="gc-analytics-event"
+      
+        data-category="GMPDevLandingPage"
+      
+        data-action="linkClick"
+      
+        data-label="youtube"
+      
+    >
+    
+  
+  
+    <img alt=""
+         
+         src="https://developers.google.com/site-assets/logo-youtube.svg"
+         srcset=""
+         
+         
+         sizes="(max-width: 600px) 50vw, (max-width: 840px) 25vw, 342px"
+         loading="lazy"
+         >
+  
+  
+  </a>
+  
+</figure>
+  
+</div>
+
+
+    
+    <div class="devsite-landing-row-item-description"
+         >
+
+      
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id="youtube"
+        data-text="YouTube"
+        class="hide-from-toc no-link"
+        tabindex="0">
+      
+  <a href="https://www.youtube.com/googlemapsplatform"
+      
+        class="gc-analytics-event"
+      
+        data-category="GMPDevLandingPage"
+      
+        data-action="linkClick"
+      
+        data-label="youtube"
+      
+    >
+    
+        YouTube
+      
+  </a>
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" /><p>Видеоруководства, рекомендации, объявления, истории успеха разработчиков и многое другое.</p>
+
+          </div>
+        
+
+        
+
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+        
+          <div class="devsite-landing-row-item"
+     
+     
+     
+    description-position="bottom"
+  >
+
+  
+
+    
+<div class="devsite-landing-row-item-media
+            ">
+  
+    <figure class="devsite-landing-row-item-image">
+  
+  <a href="https://cloud.google.com/blog/products/maps-platform"
+      
+        class="gc-analytics-event"
+      
+        data-category="GMPDevLandingPage"
+      
+        data-action="linkClick"
+      
+        data-label="blog"
+      
+    >
+    
+  
+  
+    <img alt=""
+         
+         src="https://developers.google.com/maps/images/landing/blog.svg"
+         srcset=""
+         
+         
+         sizes="(max-width: 600px) 50vw, (max-width: 840px) 25vw, 342px"
+         loading="lazy"
+         >
+  
+  
+  </a>
+  
+</figure>
+  
+</div>
+
+
+    
+    <div class="devsite-landing-row-item-description"
+         >
+
+      
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id=""
+        data-text="Блог"
+        class="hide-from-toc no-link"
+        tabindex="0">
+      
+  <a href="https://cloud.google.com/blog/products/maps-platform"
+      
+        class="gc-analytics-event"
+      
+        data-category="GMPDevLandingPage"
+      
+        data-action="linkClick"
+      
+        data-label="blog"
+      
+    >
+    
+        Блог
+      
+  </a>
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" /><p>Все новости и подробные статьи о платформе Google Карт. </p>
+
+          </div>
+        
+
+        
+
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+        
+        </div>
+      
+
+    
+    </div>
+  </section>
+
+  <section class="devsite-landing-row devsite-landing-row-4-up devsite-landing-row-cards maps-landing-card-row maps-landing-row-pad-top-default description-subtitle-text"
+           
+           
+           
+    header-position="top"
+  >
+    <div class="devsite-landing-row-inner">
+
+    
+      
+      <header class="devsite-landing-row-header"
+              >
+
+        
+
+        
+        <div class="devsite-landing-row-header-text">
+
+          
+    <h2 id=""
+        data-text="Полезные видео"
+        
+        tabindex="0">
+      
+    
+        Полезные видео
+      
+  
+    </h2>
+  
+
+          
+        </div>
+        
+
+        
+          <div class="devsite-landing-row-header-buttons">
+  
+
+  
+  <a href="https://www.youtube.com/googlemapsplatform"
+  
+    class="button
+      "
+    
+    
+      
+        class="gc-analytics-event"
+      
+        data-label="youtube-subscribe"
+      
+        data-category="GMPDevLandingPage"
+      
+        data-action="linkClick"
+      
+    
+    >Подписаться на наш канал YouTube</a>
+
+</div>
+        
+      </header>
+      
+
+      
+
+        <div class="devsite-landing-row-group">
+        
+          <div class="devsite-landing-row-item"
+     
+     
+     
+    description-position="bottom"
+  >
+
+  
+
+    
+<div class="devsite-landing-row-item-media
+            ">
+  
+    <devsite-video
+  autohide="1"
+  showinfo="0"
+  video-id="qMtE2xooVcA"
+  
+></devsite-video>
+  
+</div>
+
+
+    
+    <div class="devsite-landing-row-item-description"
+         >
+
+      
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id="io-2021-"
+        data-text="I/O 2021 – Интернет-карты нового поколения"
+        class="hide-from-toc no-link"
+        tabindex="0">
+      
+  <a href="https://www.youtube.com/watch?v=qMtE2xooVcA"
+      
+        class="gc-analytics-event"
+      
+        data-category="GMPDevLandingPage"
+      
+        data-action="videoView"
+      
+        data-label="next-gen-maps"
+      
+    >
+    
+        I/O 2021 – Интернет-карты нового поколения
+      
+  </a>
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" /><p>Ведущий разработчик Трэвис Макфэйл (Travis McPhail) подробно рассказывает о новых возможностях карт на базе WebGL.</p>
+
+          </div>
+        
+
+        
+
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+        
+          <div class="devsite-landing-row-item"
+     
+     
+     
+    description-position="bottom"
+  >
+
+  
+
+    
+<div class="devsite-landing-row-item-media
+            ">
+  
+    <devsite-video
+  autohide="1"
+  showinfo="0"
+  video-id="KezCWzzM-zk"
+  
+></devsite-video>
+  
+</div>
+
+
+    
+    <div class="devsite-landing-row-item-description"
+         >
+
+      
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id="io-2021"
+        data-text="I/O 2021 – Как с помощью облачных стилей создавать более совершенные карты, управлять ими и реализовывать их"
+        class="hide-from-toc no-link"
+        tabindex="0">
+      
+  <a href="https://www.youtube.com/watch?v=KezCWzzM-zk"
+      
+        class="gc-analytics-event"
+      
+        data-category="GMPDevLandingPage"
+      
+        data-action="videoView"
+      
+        data-label="cloud-styling"
+      
+    >
+    
+        I/O 2021 – Как с помощью облачных стилей создавать более совершенные карты, управлять ими и реализовывать их
+      
+  </a>
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" /><p>Алисия Салливан (Alicia Sullivan) и Тэймc Сукпрейни (Thame Sookpranee) из команды Карт расскажут все, что вам нужно знать о функциях стилизации облачных карт.</p>
+
+          </div>
+        
+
+        
+
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+        
+          <div class="devsite-landing-row-item"
+     
+     
+     
+    description-position="bottom"
+  >
+
+  
+
+    
+<div class="devsite-landing-row-item-media
+            ">
+  
+    <devsite-video
+  autohide="1"
+  showinfo="0"
+  video-id="LwpQjmECf5M"
+  
+></devsite-video>
+  
+</div>
+
+
+    
+    <div class="devsite-landing-row-item-description"
+         >
+
+      
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id="io-2021-google-kotlin"
+        data-text="I/O 2021 – Как использовать платформу Google Карт с идиоматичным кодом Kotlin"
+        class="hide-from-toc no-link"
+        tabindex="0">
+      
+  <a href="https://www.youtube.com/watch?v=LwpQjmECf5M"
+      
+        class="gc-analytics-event"
+      
+        data-category="GMPDevLandingPage"
+      
+        data-action="videoView"
+      
+        data-label="kotlin"
+      
+    >
+    
+        I/O 2021 – Как использовать платформу Google Карт с идиоматичным кодом Kotlin
+      
+  </a>
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" /><p>Крис Арриола (Chris Arriola) из команды по взаимодействию с разработчиками научит вас использовать идиоматичный Kotlin в приложениях с помощью Maps SDK для Android.</p>
+
+          </div>
+        
+
+        
+
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+        
+          <div class="devsite-landing-row-item"
+     
+     
+     
+    description-position="bottom"
+  >
+
+  
+
+    
+<div class="devsite-landing-row-item-media
+            ">
+  
+    <devsite-video
+  autohide="1"
+  showinfo="0"
+  video-id="VOP8cvCLGac"
+  
+></devsite-video>
+  
+</div>
+
+
+    
+    <div class="devsite-landing-row-item-description"
+         >
+
+      
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id="place-autocomplete"
+        data-text="Совет – Как снизить стоимость использования подсказок мест (Place Autocomplete)"
+        class="hide-from-toc no-link"
+        tabindex="0">
+      
+  <a href="https://www.youtube.com/watch?v=VOP8cvCLGac"
+      
+        class="gc-analytics-event"
+      
+        data-category="GMPDevLandingPage"
+      
+        data-action="videoView"
+      
+        data-label="reduce-autocomplete-costs"
+      
+    >
+    
+        Совет – Как снизить стоимость использования подсказок мест (Place Autocomplete)
+      
+  </a>
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" /><p>Узнайте, как использовать маски полей, чтобы снизить стоимость использования Place Autocomplete.</p>
+
+          </div>
+        
+
+        
+
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+        
+        </div>
+      
+
+    
+    </div>
+  </section>
+
+  <section class="devsite-landing-row devsite-landing-row-4-up devsite-landing-row-cards maps-landing-card-row maps-landing-row-pad-top-default maps-landing-row-pad-bottom-default description-subtitle-text"
+           
+           
+           
+    header-position="top"
+  >
+    <div class="devsite-landing-row-inner">
+
+    
+      
+
+      
+
+        <div class="devsite-landing-row-group">
+        
+          <div class="devsite-landing-row-item"
+     
+     
+     
+    description-position="bottom"
+  >
+
+  
+
+    
+<div class="devsite-landing-row-item-media
+            ">
+  
+    <devsite-video
+  autohide="1"
+  showinfo="0"
+  video-id="n1UorU1PALk"
+  
+></devsite-video>
+  
+</div>
+
+
+    
+    <div class="devsite-landing-row-item-description"
+         >
+
+      
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id="api-sdk-google"
+        data-text="Как включить API и SDK платформы Google Карт"
+        class="hide-from-toc no-link"
+        tabindex="0">
+      
+  <a href="https://www.youtube.com/watch?v=n1UorU1PALk"
+      
+        class="gc-analytics-event"
+      
+        data-category="GMPDevLandingPage"
+      
+        data-action="videoView"
+      
+        data-label="enable-gmp"
+      
+    >
+    
+        Как включить API и SDK платформы Google Карт
+      
+  </a>
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" /><p>Узнайте, как включить API и SDK платформы Google Карт в Google Cloud Console. API и SDK доступны для использования с Maps, Routes и Places на мобильных и веб-платформах.</p>
+
+          </div>
+        
+
+        
+
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+        
+          <div class="devsite-landing-row-item"
+     
+     
+     
+    description-position="bottom"
+  >
+
+  
+
+    
+<div class="devsite-landing-row-item-media
+            ">
+  
+    <devsite-video
+  autohide="1"
+  showinfo="0"
+  video-id="_cLiUJol8ak"
+  
+></devsite-video>
+  
+</div>
+
+
+    
+    <div class="devsite-landing-row-item-description"
+         >
+
+      
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id="maps-javascript-api"
+        data-text="Поддержка обещанных услуг в Maps JavaScript API"
+        class="hide-from-toc no-link"
+        tabindex="0">
+      
+  <a href="https://www.youtube.com/watch?v=_cLiUJol8ak"
+      
+        class="gc-analytics-event"
+      
+        data-category="GMPDevLandingPage"
+      
+        data-action="videoView"
+      
+        data-label="promises"
+      
+    >
+    
+        Поддержка обещанных услуг в Maps JavaScript API
+      
+  </a>
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" /><p>Платформа Google Карт выпустила бета-версию поддержки объектов Promise в Maps JavaScript API! Узнайте, о том, как начать работу с этой функцией.</p>
+
+          </div>
+        
+
+        
+
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+        
+          <div class="devsite-landing-row-item"
+     
+     
+     
+    description-position="bottom"
+  >
+
+  
+
+    
+<div class="devsite-landing-row-item-media
+            ">
+  
+    <devsite-video
+  autohide="1"
+  showinfo="0"
+  video-id="kA679ERgBV4"
+  
+></devsite-video>
+  
+</div>
+
+
+    
+    <div class="devsite-landing-row-item-description"
+         >
+
+      
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id="google"
+        data-text="Введение в работу с платформой Google Карт"
+        class="hide-from-toc no-link"
+        tabindex="0">
+      
+  <a href="https://www.youtube.com/watch?v=kA679ERgBV4"
+      
+        class="gc-analytics-event"
+      
+        data-category="GMPDevLandingPage"
+      
+        data-action="videoView"
+      
+        data-label="gmp-intro"
+      
+    >
+    
+        Введение в работу с платформой Google Карт
+      
+  </a>
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" /><p>В этом видео Анджела Ю (Angela Yu) рассказывает о возможностях API и SDK платформы Google Карт и делится несколькими образцами кода, которые можно использовать.</p>
+
+          </div>
+        
+
+        
+
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+        
+          <div class="devsite-landing-row-item"
+     
+     
+     
+    description-position="bottom"
+  >
+
+  
+
+    
+<div class="devsite-landing-row-item-media
+            ">
+  
+    <devsite-video
+  autohide="1"
+  showinfo="0"
+  video-id="LjIEoVkI06g"
+  
+></devsite-video>
+  
+</div>
+
+
+    
+    <div class="devsite-landing-row-item-description"
+         >
+
+      
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id="typescript-maps-javascript-api"
+        data-text="Совет – Поддержка TypeScript для Maps JavaScript API"
+        class="hide-from-toc no-link"
+        tabindex="0">
+      
+  <a href="https://www.youtube.com/watch?v=LjIEoVkI06g"
+      
+        class="gc-analytics-event"
+      
+        data-category="GMPDevLandingPage"
+      
+        data-action="videoView"
+      
+        data-label="typescript"
+      
+    >
+    
+        Совет – Поддержка TypeScript для Maps JavaScript API
+      
+  </a>
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" /><p>Узнайте о расширенной поддержке TypeScript для Maps JavaScript API, включая типизацию, созданную непосредственно из исходного кода API.</p>
+
+          </div>
+        
+
+        
+
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+        
+        </div>
+      
+
+    
+    </div>
+  </section>
+
+  <section class="devsite-landing-row devsite-landing-row-4-up devsite-landing-row-cards maps-landing-card-row maps-landing-row-pad-top-small maps-landing-row-pad-bottom-small description-subtitle-text"
+           
+    background="grey"
+  
+           
+           
+    header-position="top"
+  >
+    <div class="devsite-landing-row-inner">
+
+    
+      
+      <header class="devsite-landing-row-header"
+              >
+
+        
+
+        
+        <div class="devsite-landing-row-header-text">
+
+          
+    <h2 id=""
+        data-text="Справка и поддержка"
+        
+        tabindex="0">
+      
+    
+        Справка и поддержка
+      
+  
+    </h2>
+  
+
+          
+        </div>
+        
+
+        
+      </header>
+      
+
+      
+
+        <div class="devsite-landing-row-group">
+        
+          <div class="devsite-landing-row-item"
+     
+     
+     
+    description-position="bottom"
+  >
+
+  
+
+    
+<div class="devsite-landing-row-item-media
+            ">
+  
+    <figure class="devsite-landing-row-item-image">
+  
+  <a href="https://stackoverflow.com/questions/tagged/google-maps"
+      
+        class="gc-analytics-event"
+      
+        data-category="GMPDevLandingPage"
+      
+        data-action="linkClick"
+      
+        data-label="stack-overflow"
+      
+    >
+    
+  
+  
+    <img alt=""
+         
+         src="https://developers.google.com/site-assets/logo-stack-overflow.svg"
+         srcset=""
+         
+         
+         sizes="(max-width: 600px) 50vw, (max-width: 840px) 25vw, 342px"
+         loading="lazy"
+         >
+  
+  
+  </a>
+  
+</figure>
+  
+</div>
+
+
+    
+    <div class="devsite-landing-row-item-description"
+         >
+
+      
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id="stack-overflow"
+        data-text="Stack Overflow"
+        class="hide-from-toc no-link"
+        tabindex="0">
+      
+  <a href="https://stackoverflow.com/questions/tagged/google-maps"
+      
+        class="gc-analytics-event"
+      
+        data-category="GMPDevLandingPage"
+      
+        data-action="linkClick"
+      
+        data-label="stack-overflow"
+      
+    >
+    
+        Stack Overflow
+      
+  </a>
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" /><p>Обращайтесь за помощью, помогайте другим, создавайте репутацию Карт.</p>
+
+          </div>
+        
+
+        
+
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+        
+          <div class="devsite-landing-row-item"
+     
+     
+     
+    description-position="bottom"
+  >
+
+  
+
+    
+<div class="devsite-landing-row-item-media
+            ">
+  
+    <figure class="devsite-landing-row-item-image">
+  
+  <a href="https://developers.google.com/maps/support#issue_tracker"
+      
+        class="gc-analytics-event"
+      
+        data-category="GMPDevLandingPage"
+      
+        data-action="linkClick"
+      
+        data-label="issue-tracker"
+      
+    >
+    
+  
+  
+    <img alt=""
+         
+         src="https://developers.google.com/maps/images/landing/buganizer.svg"
+         srcset=""
+         
+         
+         sizes="(max-width: 600px) 50vw, (max-width: 840px) 25vw, 342px"
+         loading="lazy"
+         >
+  
+  
+  </a>
+  
+</figure>
+  
+</div>
+
+
+    
+    <div class="devsite-landing-row-item-description"
+         >
+
+      
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id=""
+        data-text="Система отслеживания ошибок"
+        class="hide-from-toc no-link"
+        tabindex="0">
+      
+  <a href="https://developers.google.com/maps/support#issue_tracker"
+      
+        class="gc-analytics-event"
+      
+        data-category="GMPDevLandingPage"
+      
+        data-action="linkClick"
+      
+        data-label="issue-tracker"
+      
+    >
+    
+        Система отслеживания ошибок
+      
+  </a>
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" /><p>Оставьте сообщение об ошибке или запрос на добавление функции.</p>
+
+          </div>
+        
+
+        
+
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+        
+          <div class="devsite-landing-row-item"
+     
+     
+     
+    description-position="bottom"
+  >
+
+  
+
+    
+<div class="devsite-landing-row-item-media
+            ">
+  
+    <figure class="devsite-landing-row-item-image">
+  
+  <a href="https://status.cloud.google.com/maps-platform/"
+      
+        class="gc-analytics-event"
+      
+        data-category="GMPDevLandingPage"
+      
+        data-action="linkClick"
+      
+        data-label="platform-status"
+      
+    >
+    
+  
+  
+    <img alt=""
+         
+         src="https://developers.google.com/maps/images/landing/warning.svg"
+         srcset=""
+         
+         
+         sizes="(max-width: 600px) 50vw, (max-width: 840px) 25vw, 342px"
+         loading="lazy"
+         >
+  
+  
+  </a>
+  
+</figure>
+  
+</div>
+
+
+    
+    <div class="devsite-landing-row-item-description"
+         >
+
+      
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id=""
+        data-text="Статус платформы"
+        class="hide-from-toc no-link"
+        tabindex="0">
+      
+  <a href="https://status.cloud.google.com/maps-platform/"
+      
+        class="gc-analytics-event"
+      
+        data-category="GMPDevLandingPage"
+      
+        data-action="linkClick"
+      
+        data-label="platform-status"
+      
+    >
+    
+        Статус платформы
+      
+  </a>
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" /><p>Информация об инцидентах и сбоях платформы.</p>
+
+          </div>
+        
+
+        
+
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+        
+          <div class="devsite-landing-row-item"
+     
+     
+     
+    description-position="bottom"
+  >
+
+  
+
+    
+<div class="devsite-landing-row-item-media
+            ">
+  
+    <figure class="devsite-landing-row-item-image">
+  
+  <a href="https://developers.google.com/maps/support"
+      
+        class="gc-analytics-event"
+      
+        data-category="GMPDevLandingPage"
+      
+        data-action="linkClick"
+      
+        data-label="support"
+      
+    >
+    
+  
+  
+    <img alt=""
+         
+         src="https://developers.google.com/maps/images/landing/help.svg"
+         srcset=""
+         
+         
+         sizes="(max-width: 600px) 50vw, (max-width: 840px) 25vw, 342px"
+         loading="lazy"
+         >
+  
+  
+  </a>
+  
+</figure>
+  
+</div>
+
+
+    
+    <div class="devsite-landing-row-item-description"
+         >
+
+      
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id=""
+        data-text="Поддержка"
+        class="hide-from-toc no-link"
+        tabindex="0">
+      
+  <a href="https://developers.google.com/maps/support"
+      
+        class="gc-analytics-event"
+      
+        data-category="GMPDevLandingPage"
+      
+        data-action="linkClick"
+      
+        data-label="support"
+      
+    >
+    
+        Поддержка
+      
+  </a>
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" /><p>Помощь от команды платформы Google Карт.</p>
+
+          </div>
+        
+
+        
+
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+        
+        </div>
+      
+
+    
+    </div>
+  </section>
+
+  <section class="devsite-landing-row devsite-landing-row-1-up devsite-landing-row-marquee maps-landing-get-started"
+           
+           
+           
+    header-position="top"
+  >
+    <div class="devsite-landing-row-inner">
+
+    
+      
+
+      
+
+        <div class="devsite-landing-row-group">
+        
+          <div class="devsite-landing-row-item"
+     
+     
+     
+    description-position="bottom"
+  >
+
+  
+
+    
+<div class="devsite-landing-row-item-media
+            
+    devsite-landing-row-item-media-left
+  ">
+  
+    <figure class="devsite-landing-row-item-image">
+  
+  <a href="https://developers.google.com/maps/gmp-get-started">
+    
+  
+  
+    <img alt=""
+         
+         src="https://developers.google.com/maps/images/landing/maps-get-started.png"
+         srcset="https://developers.google.com/maps/images/landing/maps-get-started_36.png 36w,https://developers.google.com/maps/images/landing/maps-get-started_48.png 48w,https://developers.google.com/maps/images/landing/maps-get-started_72.png 72w,https://developers.google.com/maps/images/landing/maps-get-started_96.png 96w,https://developers.google.com/maps/images/landing/maps-get-started_480.png 480w,https://developers.google.com/maps/images/landing/maps-get-started_720.png 720w,https://developers.google.com/maps/images/landing/maps-get-started_856.png 856w,https://developers.google.com/maps/images/landing/maps-get-started_960.png 960w,https://developers.google.com/maps/images/landing/maps-get-started_1440.png 1440w,https://developers.google.com/maps/images/landing/maps-get-started_1920.png 1920w,https://developers.google.com/maps/images/landing/maps-get-started_2880.png 2880w"
+         
+         
+         sizes="(max-width: 840px) 100vw, 952px"
+         loading="lazy"
+         >
+  
+  
+  </a>
+  
+</figure>
+  
+</div>
+
+
+    
+    <div class="devsite-landing-row-item-description"
+         >
+
+      
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id="meta-contenttexthtml-charsetutf-8-http-equivcontent-type-h2-idlets-get-started-data-textlets-get-started-h2"
+        data-text="Начало работы"
+        class="hide-from-toc no-link"
+        tabindex="0">
+      
+  <a href="https://developers.google.com/maps/gmp-get-started">
+    
+        <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" /><h2 id="let’s-get-started" data-text="Let’s get started">Начало работы</h2>
+      
+  </a>
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" /><p>Начать работу с платформой Google Карт очень просто.</p> <p>Создайте платежный аккаунт. Включите нужные функции. Получите ключ API. Начните разработку.</p> <p>Подробная информация приведена в документации и видеоруководствах.</p>
+
+          </div>
+        
+
+        
+
+        
+          <div class="devsite-landing-row-item-buttons">
+  
+
+  
+  <a href="https://developers.google.com/maps/gmp-get-started"
+  
+    class="button button-primary
+      "
+    
+    
+      
+        class="gc-analytics-event"
+      
+        data-action="linkClick"
+      
+        data-label="docs"
+      
+        data-category="GMPDevLandingPage"
+      
+    
+    >Документация</a>
+
+  
+  <a href="https://www.youtube.com/playlist?list=PL2rFahu9sLJ0yio9sC7BclL4a9r76ygHi"
+  
+    class="button
+      "
+    
+    
+      
+        data-label="videos"
+      
+        class="gc-analytics-event"
+      
+        data-action="linkClick"
+      
+        data-category="GMPDevLandingPage"
+      
+    
+    >Видеоруководства</a>
+
+</div>
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+        
+        </div>
+      
+
+    
+    </div>
+  </section>
+
+    
+
+    
+  </div>
+
+  
+
+  
+
+  
+  
+</article>
+
+
+
+<devsite-notification
+>
+</devsite-notification>
+
+
+  
+<div class="devsite-content-data">
+  <template class="devsite-thumb-rating-down-categories">
+  [{
+      "type": "thumb-down",
+      "id": "missingTheInformationINeed",
+      "label":"Missing the information I need"
+    },{
+      "type": "thumb-down",
+      "id": "tooComplicatedTooManySteps",
+      "label":"Too complicated / too many steps"
+    },{
+      "type": "thumb-down",
+      "id": "outOfDate",
+      "label":"Out of date"
+    },{
+      "type": "thumb-down",
+      "id": "translationIssue",
+      "label":"Translation issue"
+    },{
+      "type": "thumb-down",
+      "id": "samplesCodeIssue",
+      "label":"Проблемы образцов/кода"
+    },{
+      "type": "thumb-down",
+      "id": "otherDown",
+      "label":"Other"
+    }]
+  </template>
+  <template class="devsite-thumb-rating-up-categories">
+  [{
+      "type": "thumb-up",
+      "id": "easyToUnderstand",
+      "label":"Easy to understand"
+    },{
+      "type": "thumb-up",
+      "id": "solvedMyProblem",
+      "label":"Solved my problem"
+    },{
+      "type": "thumb-up",
+      "id": "otherUp",
+      "label":"Other"
+    }]
+  </template>
+  
+    
+    
+    <template class="devsite-thumb-rating-feedback">
+      <devsite-feedback
+  position="thumb-rating"
+  project-name="Платформа Google Карт"
+  product-id="81777"
+  bucket=""
+  context="Maps API Product Family"
+  version="t-devsite-webserver-20220519-r01-rc00.443818161469630914"
+  data-label="Send Feedback Button"
+  track-type="feedback"
+  track-name="sendFeedbackLink"
+  track-metadata-position="thumb-rating"
+  
+  
+  
+    
+      project-icon="https://developers.google.com/maps/images/maps-icon.svg"
+    
+  
+  
+  feedback-type="thumb-rating">
+
+  <button>
+  
+    Need to tell us more?
+  
+  </button>
+</devsite-feedback>
+    </template>
+  
+</div>
+            
+          </devsite-content>
+        </main>
+        <devsite-footer-promos class="devsite-footer">
+          
+            
+
+<nav class="devsite-footer-promos nocontent" aria-label="Promotions">
+  <ul class="devsite-footer-promos-list">
+    
+    <li class="devsite-footer-promo">
+      <a href="http://stackoverflow.com/questions/tagged/google-maps"
+         class="devsite-footer-promo-title gc-analytics-event"
+         data-category="Site-Wide Custom Events"
+       
+         
+         data-label="Footer Promo Link (index 1)"
+       
+       >
+        
+        
+          
+            <img class="devsite-footer-promo-icon"
+                 src="/site-assets/logo-stack-overflow.svg"
+                 loading="lazy"
+                 alt="Stack Overflow">
+          
+        
+        Stack Overflow
+      </a>
+      <div class="devsite-footer-promo-description">Задайте вопрос с тегом google-maps.</div>
+    </li>
+    
+    <li class="devsite-footer-promo">
+      <a href="https://github.com/googlemaps/"
+         class="devsite-footer-promo-title gc-analytics-event"
+         data-category="Site-Wide Custom Events"
+       
+         
+         data-label="Footer Promo Link (index 2)"
+       
+       >
+        
+        
+          
+            <img class="devsite-footer-promo-icon"
+                 src="/site-assets/logo-github.svg"
+                 loading="lazy"
+                 alt="GitHub">
+          
+        
+        GitHub
+      </a>
+      <div class="devsite-footer-promo-description">Ознакомьтесь с нашими примерами и опробуйте их на практике.</div>
+    </li>
+    
+    <li class="devsite-footer-promo">
+      <a href="https://discord.gg/f4hvx8Rp2q"
+         class="devsite-footer-promo-title gc-analytics-event"
+         data-category="Site-Wide Custom Events"
+       
+         
+         data-label="Footer Promo Link (index 3)"
+       
+       >
+        
+        
+          
+            <img class="devsite-footer-promo-icon"
+                 src="/maps/images/discord-color.png"
+                 loading="lazy"
+                 alt="Discord">
+          
+        
+        Discord
+      </a>
+      <div class="devsite-footer-promo-description">Обсуждайте платформу Google Карт с другими разработчиками.</div>
+    </li>
+    
+    <li class="devsite-footer-promo">
+      <a href="https://issuetracker.google.com/bookmark-groups/76561"
+         class="devsite-footer-promo-title gc-analytics-event"
+         data-category="Site-Wide Custom Events"
+       
+         
+         data-label="Footer Promo Link (index 4)"
+       
+       >
+        
+        
+          
+            <img class="devsite-footer-promo-icon"
+                 src="/site-assets/developers_64dp.png"
+                 loading="lazy"
+                 alt="Система отслеживания ошибок">
+          
+        
+        Система отслеживания ошибок
+      </a>
+      <div class="devsite-footer-promo-description">Возникла ошибка? Отправьте нам отчет о ней.</div>
+    </li>
+    
+  </ul>
+</nav>
+
+          
+        </devsite-footer-promos>
+        <devsite-footer-linkboxes class="devsite-footer">
+          
+            
+<nav class="devsite-footer-linkboxes nocontent" aria-label="Footer links">
+  
+  <ul class="devsite-footer-linkboxes-list">
+    
+    <li class="devsite-footer-linkbox ">
+    <h3 class="devsite-footer-linkbox-heading no-link">Подробнее…</h3>
+      <ul class="devsite-footer-linkbox-list">
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="/maps/faq"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 1)"
+            >
+            
+          
+            Часто задаваемые вопросы
+          
+          </a>
+          
+          
+        </li>
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="/maps/documentation/api-picker"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 2)"
+            >
+            
+          
+            Выбор API
+          
+          </a>
+          
+          
+        </li>
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="/maps/documentation/javascript/tutorials"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 3)"
+            >
+            
+              
+              
+            
+          
+            Руководства
+          
+          </a>
+          
+          
+        </li>
+        
+      </ul>
+    </li>
+    
+    <li class="devsite-footer-linkbox ">
+    <h3 class="devsite-footer-linkbox-heading no-link">Платформы</h3>
+      <ul class="devsite-footer-linkbox-list">
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="/maps/apis-by-platform#android"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 1)"
+            >
+            
+          
+            Android
+          
+          </a>
+          
+          
+        </li>
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="/maps/apis-by-platform#ios"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 2)"
+            >
+            
+          
+            iOS
+          
+          </a>
+          
+          
+        </li>
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="/maps/apis-by-platform#web_apis"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 3)"
+            >
+            
+          
+            Веб
+          
+          </a>
+          
+          
+        </li>
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="/maps/apis-by-platform#web_service_apis"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 4)"
+            >
+            
+              
+              
+            
+          
+            Веб-сервисы
+          
+          </a>
+          
+          
+        </li>
+        
+      </ul>
+    </li>
+    
+    <li class="devsite-footer-linkbox ">
+    <h3 class="devsite-footer-linkbox-heading no-link">Информация о продукте</h3>
+      <ul class="devsite-footer-linkbox-list">
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="/maps/pricing-and-plans"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+            data-category="pricingAndPlans"data-action="linkClick"data-label="footerMen">
+            
+          
+            Цены и планы
+          
+          </a>
+          
+          
+        </li>
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="https://cloud.google.com/contact-maps/"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+            data-category="contactSales"data-label="footerMenu"data-action="linkClick">
+            
+          
+            Связаться с отделом продаж
+          
+          </a>
+          
+          
+        </li>
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="https://developers.google.com/maps/support/"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 3)"
+            >
+            
+          
+            Поддержка
+          
+          </a>
+          
+          
+        </li>
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="https://cloud.google.com/maps-platform/terms"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 4)"
+            >
+            
+              
+              
+            
+          
+            Условия использования
+          
+          </a>
+          
+          
+        </li>
+        
+      </ul>
+    </li>
+    
+  </ul>
+  
+</nav>
+          
+        </devsite-footer-linkboxes>
+        <devsite-footer-utility class="devsite-footer">
+          
+            
+
+<div class="devsite-footer-utility nocontent">
+  
+  
+  <nav class="devsite-footer-sites" aria-label="Other Google Developers websites">
+    <a href="https://developers.google.com/"
+       class="devsite-footer-sites-logo-link gc-analytics-event"
+       data-category="Site-Wide Custom Events"
+       data-label="Footer Google Developers Link">
+      <img class="devsite-footer-sites-logo"
+           src="https://www.gstatic.com/devrel-devsite/prod/v2cfe3be7b1735e78718b242e557d4a47f9b52b339aa402465e5ba3f2d269c3cb/developers/images/lockup-developers.svg"
+           loading="lazy"
+           alt="Google Developers">
+    </a>
+    <ul class="devsite-footer-sites-list">
+      
+      <li class="devsite-footer-sites-item">
+        <a href="//developer.android.com"
+           class="devsite-footer-sites-link
+                  gc-analytics-event"
+           data-category="Site-Wide Custom Events"
+         
+           data-label="Footer Android Link"
+         
+         >
+          Android
+        </a>
+      </li>
+      
+      <li class="devsite-footer-sites-item">
+        <a href="//developer.chrome.com/home"
+           class="devsite-footer-sites-link
+                  gc-analytics-event"
+           data-category="Site-Wide Custom Events"
+         
+           data-label="Footer Chrome Link"
+         
+         >
+          Chrome
+        </a>
+      </li>
+      
+      <li class="devsite-footer-sites-item">
+        <a href="//firebase.google.com"
+           class="devsite-footer-sites-link
+                  gc-analytics-event"
+           data-category="Site-Wide Custom Events"
+         
+           data-label="Footer Firebase Link"
+         
+         >
+          Firebase
+        </a>
+      </li>
+      
+      <li class="devsite-footer-sites-item">
+        <a href="//cloud.google.com"
+           class="devsite-footer-sites-link
+                  gc-analytics-event"
+           data-category="Site-Wide Custom Events"
+         
+           data-label="Footer Google Cloud Platform Link"
+         
+         >
+          Google Cloud Platform
+        </a>
+      </li>
+      
+      <li class="devsite-footer-sites-item">
+        <a href="/products"
+           class="devsite-footer-sites-link
+                  gc-analytics-event"
+           data-category="Site-Wide Custom Events"
+         
+           data-label="Footer All products Link"
+         
+         >
+          Все продукты
+        </a>
+      </li>
+      
+    </ul>
+  </nav>
+  
+
+  
+  <nav class="devsite-footer-utility-links" aria-label="Utility links">
+    
+    <ul class="devsite-footer-utility-list">
+      
+      <li class="devsite-footer-utility-item
+                 ">
+        
+        
+        <a class="devsite-footer-utility-link gc-analytics-event"
+           href="/terms/site-terms"
+           data-category="Site-Wide Custom Events"
+           data-label="Footer Terms link"
+         >
+          Условия использования
+        </a>
+        
+      </li>
+      
+      <li class="devsite-footer-utility-item
+                 ">
+        
+        
+        <a class="devsite-footer-utility-link gc-analytics-event"
+           href="//policies.google.com/privacy"
+           data-category="Site-Wide Custom Events"
+           data-label="Footer Privacy link"
+         >
+          Конфиденциальность
+        </a>
+        
+      </li>
+      
+      <li class="devsite-footer-utility-item
+                 devsite-footer-utility-button">
+        
+        <span class="devsite-footer-utility-description">Подписаться на рассылку Google Developers</span>
+        
+        
+        <a class="devsite-footer-utility-link gc-analytics-event"
+           href="//services.google.com/fb/forms/googledevelopersnewsletter/?utm_medium=referral&amp;utm_source=google-products&amp;utm_team=googledevs&amp;utm_campaign=201611-newsletter-launch"
+           data-category="Site-Wide Custom Events"
+           data-label="Footer Subscribe link"
+         >
+          Подписаться
+        </a>
+        
+      </li>
+      
+    </ul>
+    
+    
+<devsite-language-selector>
+  <devsite-select class="devsite-language-selector-menu">
+    
+    <select aria-label="Select your language preference."
+            class="devsite-language-selector-select"
+            name="language"
+            track-name="click"
+            track-type="languageSelector">
+    
+      
+      <option>Language</option>
+    
+    
+      <option value="en"
+              lang="en"
+            >
+        English
+      </option>
+    
+      <option value="id"
+              lang="id"
+            >
+        Bahasa Indonesia
+      </option>
+    
+      <option value="de"
+              lang="de"
+            >
+        Deutsch
+      </option>
+    
+      <option value="es"
+              lang="es"
+            >
+        Español
+      </option>
+    
+      <option value="es_419"
+              lang="es_419"
+            >
+        Español – América Latina
+      </option>
+    
+      <option value="fr"
+              lang="fr"
+            >
+        Français
+      </option>
+    
+      <option value="pt_br"
+              lang="pt_br"
+            >
+        Português – Brasil
+      </option>
+    
+      <option value="ru"
+              lang="ru"
+            >
+        Русский
+      </option>
+    
+      <option value="zh_cn"
+              lang="zh_cn"
+            >
+        中文 – 简体
+      </option>
+    
+      <option value="zh_tw"
+              lang="zh_tw"
+            >
+        中文 – 繁體
+      </option>
+    
+      <option value="ja"
+              lang="ja"
+            >
+        日本語
+      </option>
+    
+      <option value="ko"
+              lang="ko"
+            >
+        한국어
+      </option>
+    
+    </select>
+  </devsite-select>
+</devsite-language-selector>
+
+  </nav>
+</div>
+          
+        </devsite-footer-utility>
+        <devsite-panel></devsite-panel>
+      </section></section>
+    <devsite-sitemask></devsite-sitemask>
+    <devsite-snackbar
+    
+        type="cookie-notification"
+        data-cookie-notice="0"
+    
+    >
+</devsite-snackbar>
+    <devsite-tooltip ></devsite-tooltip>
+    <devsite-heading-link></devsite-heading-link>
+    <devsite-analytics analytics-iframe>
+      
+        <script type="application/json" analytics>[{"dimensions": {"dimension5": "ru", "dimension11": false, "dimension1": "Signed out", "dimension4": "\u041f\u043b\u0430\u0442\u0444\u043e\u0440\u043c\u0430 Google \u041a\u0430\u0440\u0442", "dimension3": false, "dimension6": "ru"}, "gaid": "UA-24532603-1", "metrics": {"ratings_count": "metric2", "ratings_value": "metric1"}}]</script>
+<script type="application/json" gtm>{"parameters": {"freeTrialEligibleUser": "True", "internalUser": "False", "language": {"machineTranslated": "False", "requested": "ru", "served": "ru"}, "pageType": "article", "projectName": "\u041f\u043b\u0430\u0442\u0444\u043e\u0440\u043c\u0430 Google \u041a\u0430\u0440\u0442", "signedIn": "False", "tenant": "developers", "recommendations": {"sourcePage": "", "sourceType": 0, "sourceRank": 0, "sourceIdenticalDescriptions": 0, "sourceTitleWords": 0, "sourceDescriptionWords": 0, "experiment": ""}, "experiment": {"ids": ""}}, "tags": ["GTM-5CVQBG"]}</script>
+      
+    </devsite-analytics>
+    
+      <devsite-badger></devsite-badger>
+    
+    
+    <script nonce="bCNfRWnoiLz/9mZjXi3bTFonXI4ro6">
+  
+  (function(d,e,v,s,i,t,E){d['GoogleDevelopersObject']=i;
+    t=e.createElement(v);t.async=1;t.src=s;E=e.getElementsByTagName(v)[0];
+    E.parentNode.insertBefore(t,E);})(window, document, 'script',
+    'https://www.gstatic.com/devrel-devsite/prod/v2cfe3be7b1735e78718b242e557d4a47f9b52b339aa402465e5ba3f2d269c3cb/developers/js/app_loader.js', '[1,"ru",null,"/js/devsite_app_module.js","https://www.gstatic.com/devrel-devsite/prod/v2cfe3be7b1735e78718b242e557d4a47f9b52b339aa402465e5ba3f2d269c3cb","https://www.gstatic.com/devrel-devsite/prod/v2cfe3be7b1735e78718b242e557d4a47f9b52b339aa402465e5ba3f2d269c3cb/developers","https://developers-dot-devsite-v2-prod.appspot.com",1,null,["/_pwa/developers/manifest.json","https://www.gstatic.com/devrel-devsite/prod/v2cfe3be7b1735e78718b242e557d4a47f9b52b339aa402465e5ba3f2d269c3cb/images/video-placeholder.svg","https://www.gstatic.com/devrel-devsite/prod/v2cfe3be7b1735e78718b242e557d4a47f9b52b339aa402465e5ba3f2d269c3cb/developers/images/favicon.png","https://fonts.googleapis.com/css?family=Google+Sans:400,500|Roboto:400,400italic,500,500italic,700,700italic|Roboto+Mono:400,500,700&display=swap"],1,null,[1,6,8,12,14,17,21,25,40,50,63,70,75,76,80,87,91,92,93,97,98,100,101,102,103,104,105,107,108,109,110,111,112,113,115,116,117,118,120,122,124,125,126,127,129,130,131,132,133,134,135,136,138,140,141,144,147,148,149,150,151,152,154,155,156,157,158,159,161,163,164,165,168,169,170,173,179,180,182,183,186,191,193],"AIzaSyAP-jjEJBzmIyKR4F-3XITp8yM9T1gEEI8","AIzaSyB6xiKGDR5O3Ak2okS4rLkauxGUG7XP0hg","developers.google.com","AIzaSyAQk0fBONSGUqCNznf6Krs82Ap1-NV6J4o","AIzaSyCCxcqdrZ_7QMeLCRY20bh_SXdAYqy70KY"]')
+  
+</script>
+    <devsite-a11y-announce></devsite-a11y-announce>
+  </body>
+</html>

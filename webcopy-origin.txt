@@ -1,0 +1,999 @@
+Uri: https://www.aqualab.pt/validate/?p1=OTQ2MTg4&p2=OTAzOTA4&p3=UE1KMTc2OTM=&p4=QVBQT0xP&p5=UE9SVElNQU8=&p7=UFQ=&p8=djI=
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\validate\index.htm
+Content Type: text/html
+
+Uri: https://www.aqualab.pt/validate/
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\validate\index-2.htm
+Content Type: text/html
+
+Uri: http://gmpg.org/xfn/11
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\xfn\11-1.html
+Content Type: text/html
+
+Uri: https://www.aqualab.pt/files/themes/aqualab_theme/favicon.png
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\files\themes\aqualab_theme\favicon-1.png
+Content Type: image/png
+
+Uri: https://www.aqualab.pt/files/themes/aqualab_theme/apple-touch-icon.png
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\files\themes\aqualab_theme\apple-touch-icon-1.png
+Content Type: image/png
+
+Uri: https://www.aqualab.pt/files/themes/aqualab_theme/favicon-32x32.png
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\files\themes\aqualab_theme\favicon-32x32-1.png
+Content Type: image/png
+
+Uri: https://www.aqualab.pt/files/themes/aqualab_theme/favicon-16x16.png
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\files\themes\aqualab_theme\favicon-16x16-1.png
+Content Type: image/png
+
+Uri: https://www.aqualab.pt/files/themes/aqualab_theme/site.webmanifest
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\files\themes\aqualab_theme\site-1.webmanifest
+Content Type: 
+
+Uri: https://www.aqualab.pt/files/themes/aqualab_theme/safari-pinned-tab.svg
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\files\themes\aqualab_theme\safari-pinned-tab-1.svg
+Content Type: image/svg+xml
+
+Uri: https://fonts.googleapis.com/css?family=Merriweather:400,400i,700,700i&display=swap
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\css-1.css
+Content Type: text/css
+
+Uri: https://www.aqualab.pt/validate/?p1=OTQ2MTg4&p2=OTAzOTA4&p3=UE1KMTc2OTM&p4=QVBQT0xP&p5=UE9SVElNQU8&p8=djI
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\validate\index-1.htm
+Content Type: text/html
+
+Uri: https://www.google.com/
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\index-4.htm
+Content Type: text/html
+
+Uri: https://s.w.org/
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\index-5.htm
+Content Type: text/html
+
+Uri: https://www.aqualab.pt/feed/
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\feed\index.htm-1.rss
+Content Type: application/rss+xml
+
+Uri: https://www.aqualab.pt/comments/feed/
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\comments\feed\index.htm-1.rss
+Content Type: application/rss+xml
+
+Uri: https://www.aqualab.pt/app/wp-includes/css/dist/block-library/style.min.css?ver=5.6.8
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\app\wp-includes\css\dist\block-library\style.min-1.css
+Content Type: text/css
+
+Uri: https://www.aqualab.pt/files/plugins/kobu-custom-blocks/dist/blocks.style.build.css?ver=1650366050
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\files\plugins\kobu-custom-blocks\dist\blocks.style.build-1.css
+Content Type: text/css
+
+Uri: https://www.aqualab.pt/files/plugins/contact-form-7/includes/css/styles.css?ver=5.4
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\files\plugins\contact-form-7\includes\css\styles-1.css
+Content Type: text/css
+
+Uri: https://www.aqualab.pt/files/themes/aqualab_theme/assets/dist/aqualab_theme.min.css?ver=1.0.4
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\files\themes\aqualab_theme\assets\dist\aqualab_theme.min-1.css
+Content Type: text/css
+
+Uri: https://www.aqualab.pt/files/themes/aqualab_theme/assets/third-party/slick-carousel/slick/slick.css?ver=1.8.0
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\files\themes\aqualab_theme\assets\third-party\slick-carousel\slick\slick-1.css
+Content Type: text/css
+
+Uri: https://www.aqualab.pt/files/themes/aqualab_theme/assets/third-party/slick-lightbox/dist/slick-lightbox.css?ver=1.0.0
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\files\themes\aqualab_theme\assets\third-party\slick-lightbox\dist\slick-lightbox-1.css
+Content Type: text/css
+
+Uri: https://www.aqualab.pt/wp-json/
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\wp-json\index.htm-1.json
+Content Type: application/json
+
+Uri: https://www.aqualab.pt/wp-json/wp/v2/pages/3389
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\wp-json\wp\v2\pages\3389.json
+Content Type: application/json
+
+Uri: https://www.aqualab.pt/app/xmlrpc.php?rsd
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\app\xmlrpc.php-1.xml
+Content Type: text/xml
+
+Uri: https://www.aqualab.pt/app/wp-includes/wlwmanifest.xml
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\app\wp-includes\wlwmanifest-1.xml
+Content Type: application/xml
+
+Uri: https://www.aqualab.pt/wp-json/oembed/1.0/embed?url=https:%2F%2Fwww.aqualab.pt%2Fvalidate%2F
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\wp-json\oembed\1.0\embed-4.json
+Content Type: application/json
+
+Uri: https://www.aqualab.pt/wp-json/oembed/1.0/embed?url=https:%2F%2Fwww.aqualab.pt%2Fvalidate%2F&format=xml
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\wp-json\oembed\1.0\embed-4.xml
+Content Type: text/xml
+
+Uri: https://www.facebook.com/grupoaqualab
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\grupoaqualab-1.html
+Content Type: text/html
+
+Uri: https://www.aqualab.pt/validate/?p1=OTQ2MTg4&p2=OTAzOTA4&p3=UE1KMTc2OTM%3D&p4=QVBQT0xP&p5=UE9SVElNQU8%3D&p7=UFQ%3D&p8=djI%3D&get=pdf
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\validate\Resultado_PMJ17693.pdf
+Content Type: application/pdf
+
+Uri: https://www.instagram.com/aqualab_grupo/
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\aqualab_grupo\index-1.htm
+Content Type: text/html
+
+Uri: https://kobu.agency/
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\index-6.htm
+Content Type: text/html
+
+Uri: https://www.aqualab.pt/app/wp-includes/js/jquery/jquery.min.js?ver=3.5.1
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\app\wp-includes\js\jquery\jquery.min-1.js
+Content Type: application/javascript
+
+Uri: https://www.aqualab.pt/app/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\app\wp-includes\js\jquery\jquery-migrate.min-1.js
+Content Type: application/javascript
+
+Uri: https://www.aqualab.pt/files/uploads/2021/07/aqualab-certificacao-01.png
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\files\uploads\2021\07\aqualab-certificacao-01-1.png
+Content Type: image/png
+
+Uri: https://www.aqualab.pt/files/uploads/2021/07/aqualab-certificacao-02.png
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\files\uploads\2021\07\aqualab-certificacao-02-1.png
+Content Type: image/png
+
+Uri: https://www.aqualab.pt/files/uploads/2021/07/aqualab-certificacao-03.png
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\files\uploads\2021\07\aqualab-certificacao-03-1.png
+Content Type: image/png
+
+Uri: https://www.aqualab.pt/app/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=7.4.4
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\app\wp-includes\js\dist\vendor\wp-polyfill.min-1.js
+Content Type: application/javascript
+
+Uri: https://www.aqualab.pt/app/wp-includes/js/dist/i18n.min.js?ver=9e36b5da09c96c657b0297fd6f7cb1fd
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\app\wp-includes\js\dist\i18n.min-1.js
+Content Type: application/javascript
+
+Uri: https://www.aqualab.pt/app/wp-includes/js/dist/vendor/lodash.min.js?ver=4.17.21
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\app\wp-includes\js\dist\vendor\lodash.min-1.js
+Content Type: application/javascript
+
+Uri: https://www.aqualab.pt/app/wp-includes/js/dist/url.min.js?ver=1b4bb2b3f526a1db366ca3147ac39562
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\app\wp-includes\js\dist\url.min-1.js
+Content Type: application/javascript
+
+Uri: https://www.aqualab.pt/app/wp-includes/js/dist/hooks.min.js?ver=d0d9f43e03080e6ace9a3dabbd5f9eee
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\app\wp-includes\js\dist\hooks.min-1.js
+Content Type: application/javascript
+
+Uri: https://www.aqualab.pt/app/wp-includes/js/dist/api-fetch.min.js?ver=c207d2d188ba8bf763f7acd50b7fd5a9
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\app\wp-includes\js\dist\api-fetch.min-1.js
+Content Type: application/javascript
+
+Uri: https://www.aqualab.pt/files/plugins/contact-form-7/includes/js/index.js?ver=5.4
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\files\plugins\contact-form-7\includes\js\index-1.js
+Content Type: application/javascript
+
+Uri: https://www.aqualab.pt/files/themes/aqualab_theme/assets/third-party/modernizr/modernizr-custom.js?ver=3.6.0
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\files\themes\aqualab_theme\assets\third-party\modernizr\modernizr-custom-1.js
+Content Type: application/javascript
+
+Uri: https://www.aqualab.pt/files/themes/aqualab_theme/assets/third-party/isInViewport/lib/isInViewport.js?ver=3.0.4
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\files\themes\aqualab_theme\assets\third-party\isInViewport\lib\isInViewport-1.js
+Content Type: application/javascript
+
+Uri: https://www.aqualab.pt/files/themes/aqualab_theme/assets/third-party/vimeo/vimeo_player.min.js?ver=2.10.0
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\files\themes\aqualab_theme\assets\third-party\vimeo\vimeo_player.min-1.js
+Content Type: application/javascript
+
+Uri: https://www.aqualab.pt/files/themes/aqualab_theme/assets/third-party/slick-carousel/slick/slick.min.js?ver=1.8.0
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\files\themes\aqualab_theme\assets\third-party\slick-carousel\slick\slick.min-1.js
+Content Type: application/javascript
+
+Uri: https://www.aqualab.pt/files/themes/aqualab_theme/assets/third-party/slick-lightbox/dist/slick-lightbox.min.js?ver=1.0.0
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\files\themes\aqualab_theme\assets\third-party\slick-lightbox\dist\slick-lightbox.min-1.js
+Content Type: application/javascript
+
+Uri: https://www.aqualab.pt/files/themes/aqualab_theme/assets/dist/aqualab_theme_scripts.min.js?ver=1.0.4
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\files\themes\aqualab_theme\assets\dist\aqualab_theme_scripts.min-1.js
+Content Type: application/javascript
+
+Uri: https://www.aqualab.pt/app/wp-includes/js/imagesloaded.min.js?ver=4.1.4
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\app\wp-includes\js\imagesloaded.min-1.js
+Content Type: application/javascript
+
+Uri: https://www.aqualab.pt/files/themes/aqualab_theme/assets/third-party/loading-attribute-polyfill-master/loading-attribute-polyfill-figure.min.js?ver=1.0.0
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\files\themes\aqualab_theme\assets\third-party\loading-attribute-polyfill-master\loading-attribute-polyfill-figure.min-1.js
+Content Type: application/javascript
+
+Uri: https://maps.googleapis.com/maps/api/js?key=AIzaSyDb0b2akTGgL2BSurroelD4_AU8wMKQe9s&ver=1.0.0
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\maps\api\js-1
+Content Type: text/javascript
+
+Uri: https://www.google.com/recaptcha/api.js?render=6Ld84K8ZAAAAAK8Qegsv2z7h7T8TFIW-L1Mm4Oxn&ver=3.0
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\recaptcha\api-1.js
+Content Type: text/javascript
+
+Uri: https://www.aqualab.pt/files/plugins/contact-form-7/modules/recaptcha/index.js?ver=5.4
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\files\plugins\contact-form-7\modules\recaptcha\index-1.js
+Content Type: application/javascript
+
+Uri: https://www.aqualab.pt/app/wp-includes/js/wp-embed.min.js?ver=5.6.8
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\app\wp-includes\js\wp-embed.min-1.js
+Content Type: application/javascript
+
+Uri: https://www.aqualab.pt/validate/?p1=OTQ2MTg4&p2=OTAzOTA4&p3=UE1KMTc2OTM&p4=QVBQT0xP&p5=UE9SVElNQU8&p8=djI&p7=UFQ&get=pdf
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\validate\Resultado_PMJ17693-1.pdf
+Content Type: application/pdf
+
+Uri: https://developers.google.com/maps/
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\maps\index-1.htm
+Content Type: text/html
+
+Uri: https://consent.google.com/ml?continue=https://www.google.com/&gl=PT&m=0&pc=shp&uxe=none&hl=ru&src=1
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\ml-1.html
+Content Type: text/html
+
+Uri: https://aqualab.kobudev.com/politica-de-privacidade/
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\politica-de-privacidade\index-2.htm
+Content Type: text/html
+
+Uri: https://www.livroreclamacoes.pt/Inicio/
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\Inicio\index-1.htm
+Content Type: text/html
+
+me: C:\Downloaded Web Sites\www.aqualab.pt\departamento-de-analises\medicos\testes-inovadores\index.htm
+Content Type: text/html
+
+Uri: https://www.aqualab.pt/departamento-de-analises/medicos/algoritmos-de-diagnostico/
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\departamento-de-analises\medicos\algoritmos-de-diagnostico\index.htm
+Content Type: text/html
+
+Uri: https://www.aqualab.pt/departamento-de-analises/medicos/publicacoes-artigos-cientificos-e-informacoes-tecnicas/
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\departamento-de-analises\medicos\publicacoes-artigos-cientificos-e-informacoes-tecnicas\index.htm
+Content Type: text/html
+
+Uri: https://www.aqualab.pt/conhecimento/
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\conhecimento\index.htm
+Content Type: text/html
+
+Uri: https://www.aqualab.pt/noticias/
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\noticias\index.htm
+Content Type: text/html
+
+Uri: https://www.aqualab.pt/politica-de-privacidade/
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\politica-de-privacidade\index-1.htm
+Content Type: text/html
+
+Uri: https://www.facebook.com/grupoaqualab
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\grupoaqualab.html
+Content Type: text/html
+
+Uri: https://www.aqualab.pt/departamento-de-analises/
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\departamento-de-analises\index.htm
+Content Type: text/html
+
+Uri: https://www.aqualab.pt/conhecimento/covid-19/
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\conhecimento\covid-19\index.htm
+Content Type: text/html
+
+Uri: https://www.aqualab.pt/noticias/aqualab-pme-de-excelencia/
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\noticias\aqualab-pme-de-excelencia\index.htm
+Content Type: text/html
+
+Uri: https://www.aqualab.pt/noticias/panorama-teste-pre-natal/
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\noticias\panorama-teste-pre-natal\index.htm
+Content Type: text/html
+
+Uri: https://www.aqualab.pt/noticias/testes-de-intolerancia-alimentar/
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\noticias\testes-de-intolerancia-alimentar\index.htm
+Content Type: text/html
+
+Uri: https://www.aqualab.pt/conhecimento/non-invasive-prenatal-test-panorama/
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\conhecimento\non-invasive-prenatal-test-panorama\index.htm
+Content Type: text/html
+
+Uri: https://www.aqualab.pt/conhecimento/o-que-necessita-saber-sobre-a-hepatite-b/
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\conhecimento\o-que-necessita-saber-sobre-a-hepatite-b\index.htm
+Content Type: text/html
+
+Uri: https://www.aqualab.pt/conhecimento/helicobacter-pylori-and-peptic-ulcer/
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\conhecimento\helicobacter-pylori-and-peptic-ulcer\index.htm
+Content Type: text/html
+
+Uri: https://www.aqualab.pt/subscreva-a-nossa-newsletter/
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\subscreva-a-nossa-newsletter\index.htm
+Content Type: text/html
+
+Uri: https://www.aqualab.pt/politica-de-cookies/
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\politica-de-cookies\index.htm
+Content Type: text/html
+
+Uri: https://www.aqualab.pt/politica-de-reembolsos/
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\politica-de-reembolsos\index.htm
+Content Type: text/html
+
+Uri: https://www.aqualab.pt/termos-e-condicoes/
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\termos-e-condicoes\index.htm
+Content Type: text/html
+
+Uri: https://www.instagram.com/aqualab_grupo/
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\aqualab_grupo\index.htm
+Content Type: text/html
+
+Uri: https://kobu.agency/
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\index-3.htm
+Content Type: text/html
+
+Uri: https://www.aqualab.pt/app/wp-includes/js/jquery/jquery.min.js?ver=3.5.1
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\app\wp-includes\js\jquery\jquery.min.js
+Content Type: application/javascript
+
+Uri: https://www.aqualab.pt/app/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\app\wp-includes\js\jquery\jquery-migrate.min.js
+Content Type: application/javascript
+
+Uri: https://www.aqualab.pt/files/uploads/2020/01/b7940aebe27db7fada53cd18b8310d3931781d76-500x430.jpg
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\files\uploads\2020\01\b7940aebe27db7fada53cd18b8310d3931781d76-500x430.jpg
+Content Type: image/jpeg
+
+Uri: https://www.aqualab.pt/files/uploads/2020/01/eb8c142ece515476b2c792f5f8c3f4f1a06f867d-500x430.jpg
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\files\uploads\2020\01\eb8c142ece515476b2c792f5f8c3f4f1a06f867d-500x430.jpg
+Content Type: image/jpeg
+
+Uri: https://www.aqualab.pt/files/uploads/2020/01/cce4db3c194375c059fa7edaeea4ff87633d804e.jpg
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\files\uploads\2020\01\cce4db3c194375c059fa7edaeea4ff87633d804e.jpg
+Content Type: image/jpeg
+
+Uri: https://www.aqualab.pt/files/uploads/2020/01/15ece2e050328d7169a96165f5dabafd3ce5ade1-500x500.jpg
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\files\uploads\2020\01\15ece2e050328d7169a96165f5dabafd3ce5ade1-500x500.jpg
+Content Type: image/jpeg
+
+Uri: https://www.aqualab.pt/files/uploads/2020/01/8b55251c6ca91bdc9d4bedaf5817181b02429e46-500x500.jpg
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\files\uploads\2020\01\8b55251c6ca91bdc9d4bedaf5817181b02429e46-500x500.jpg
+Content Type: image/jpeg
+
+Uri: https://www.aqualab.pt/files/uploads/2020/01/5cfb5b59ab3aee57449f98463748460b58d6c9f9-500x500.jpg
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\files\uploads\2020\01\5cfb5b59ab3aee57449f98463748460b58d6c9f9-500x500.jpg
+Content Type: image/jpeg
+
+Uri: https://www.aqualab.pt/files/uploads/2020/02/8b55251c6ca91bdc9d4bedaf5817181b02429e46-500x500.jpg
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\files\uploads\2020\02\8b55251c6ca91bdc9d4bedaf5817181b02429e46-500x500.jpg
+Content Type: image/jpeg
+
+Uri: https://www.aqualab.pt/files/uploads/2020/06/shutterstock_80995972-Virus-Hepatite-B-e-células-humanas-500x500.jpg
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\files\uploads\2020\06\shutterstock_80995972-Virus-Hepatite-B-e-células-humanas-500x500.jpg
+Content Type: image/jpeg
+
+Uri: https://www.aqualab.pt/files/uploads/2020/06/shutterstock_303608561-Helicobacter-pylori-500x500.jpg
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\files\uploads\2020\06\shutterstock_303608561-Helicobacter-pylori-500x500.jpg
+Content Type: image/jpeg
+
+Uri: https://www.aqualab.pt/files/uploads/2021/07/aqualab-certificacao-01.png
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\files\uploads\2021\07\aqualab-certificacao-01.png
+Content Type: image/png
+
+Uri: https://www.aqualab.pt/files/uploads/2021/07/aqualab-certificacao-02.png
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\files\uploads\2021\07\aqualab-certificacao-02.png
+Content Type: image/png
+
+Uri: https://www.aqualab.pt/files/uploads/2021/07/aqualab-certificacao-03.png
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\files\uploads\2021\07\aqualab-certificacao-03.png
+Content Type: image/png
+
+Uri: https://www.aqualab.pt/app/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=7.4.4
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\app\wp-includes\js\dist\vendor\wp-polyfill.min.js
+Content Type: application/javascript
+
+Uri: https://www.aqualab.pt/app/wp-includes/js/dist/i18n.min.js?ver=9e36b5da09c96c657b0297fd6f7cb1fd
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\app\wp-includes\js\dist\i18n.min.js
+Content Type: application/javascript
+
+Uri: https://www.aqualab.pt/app/wp-includes/js/dist/vendor/lodash.min.js?ver=4.17.21
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\app\wp-includes\js\dist\vendor\lodash.min.js
+Content Type: application/javascript
+
+Uri: https://www.aqualab.pt/app/wp-includes/js/dist/url.min.js?ver=1b4bb2b3f526a1db366ca3147ac39562
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\app\wp-includes\js\dist\url.min.js
+Content Type: application/javascript
+
+Uri: https://www.aqualab.pt/app/wp-includes/js/dist/hooks.min.js?ver=d0d9f43e03080e6ace9a3dabbd5f9eee
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\app\wp-includes\js\dist\hooks.min.js
+Content Type: application/javascript
+
+Uri: https://www.aqualab.pt/app/wp-includes/js/dist/api-fetch.min.js?ver=c207d2d188ba8bf763f7acd50b7fd5a9
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\app\wp-includes\js\dist\api-fetch.min.js
+Content Type: application/javascript
+
+Uri: https://www.aqualab.pt/files/plugins/contact-form-7/includes/js/index.js?ver=5.4
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\files\plugins\contact-form-7\includes\js\index.js
+Content Type: application/javascript
+
+Uri: https://www.aqualab.pt/files/themes/aqualab_theme/assets/third-party/modernizr/modernizr-custom.js?ver=3.6.0
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\files\themes\aqualab_theme\assets\third-party\modernizr\modernizr-custom.js
+Content Type: application/javascript
+
+Uri: https://www.aqualab.pt/files/themes/aqualab_theme/assets/third-party/isInViewport/lib/isInViewport.js?ver=3.0.4
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\files\themes\aqualab_theme\assets\third-party\isInViewport\lib\isInViewport.js
+Content Type: application/javascript
+
+Uri: https://www.aqualab.pt/files/themes/aqualab_theme/assets/third-party/vimeo/vimeo_player.min.js?ver=2.10.0
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\files\themes\aqualab_theme\assets\third-party\vimeo\vimeo_player.min.js
+Content Type: application/javascript
+
+Uri: https://www.aqualab.pt/files/themes/aqualab_theme/assets/third-party/slick-carousel/slick/slick.min.js?ver=1.8.0
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\files\themes\aqualab_theme\assets\third-party\slick-carousel\slick\slick.min.js
+Content Type: application/javascript
+
+Uri: https://www.aqualab.pt/files/themes/aqualab_theme/assets/third-party/slick-lightbox/dist/slick-lightbox.min.js?ver=1.0.0
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\files\themes\aqualab_theme\assets\third-party\slick-lightbox\dist\slick-lightbox.min.js
+Content Type: application/javascript
+
+Uri: https://www.aqualab.pt/files/themes/aqualab_theme/assets/dist/aqualab_theme_scripts.min.js?ver=1.0.4
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\files\themes\aqualab_theme\assets\dist\aqualab_theme_scripts.min.js
+Content Type: application/javascript
+
+Uri: https://www.aqualab.pt/app/wp-includes/js/imagesloaded.min.js?ver=4.1.4
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\app\wp-includes\js\imagesloaded.min.js
+Content Type: application/javascript
+
+Uri: https://www.aqualab.pt/files/themes/aqualab_theme/assets/third-party/loading-attribute-polyfill-master/loading-attribute-polyfill-figure.min.js?ver=1.0.0
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\files\themes\aqualab_theme\assets\third-party\loading-attribute-polyfill-master\loading-attribute-polyfill-figure.min.js
+Content Type: application/javascript
+
+Uri: https://maps.googleapis.com/maps/api/js?key=AIzaSyDb0b2akTGgL2BSurroelD4_AU8wMKQe9s&ver=1.0.0
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\maps\api\js
+Content Type: text/javascript
+
+Uri: https://www.google.com/recaptcha/api.js?render=6Ld84K8ZAAAAAK8Qegsv2z7h7T8TFIW-L1Mm4Oxn&ver=3.0
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\recaptcha\api.js
+Content Type: text/javascript
+
+Uri: https://www.aqualab.pt/files/plugins/contact-form-7/modules/recaptcha/index.js?ver=5.4
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\files\plugins\contact-form-7\modules\recaptcha\index.js
+Content Type: application/javascript
+
+Uri: https://www.aqualab.pt/app/wp-includes/js/wp-embed.min.js?ver=5.6.8
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\app\wp-includes\js\wp-embed.min.js
+Content Type: application/javascript
+
+Uri: https://www.aqualab.pt/files/uploads/2020/06/fusion-medical-animation-EAgGqOiDDMg-unsplash.jpg
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\files\uploads\2020\06\fusion-medical-animation-EAgGqOiDDMg-unsplash.jpg
+Content Type: image/jpeg
+
+Uri: https://www.aqualab.pt/files/uploads/2020/06/shutterstock_234586750-Mãos-em-microscópio.jpg
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\files\uploads\2020\06\shutterstock_234586750-Mãos-em-microscópio.jpg
+Content Type: image/jpeg
+
+Uri: https://www.aqualab.pt/files/uploads/2020/12/hans-reniers-lQGJCMY5qcM-unsplash.jpg
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\files\uploads\2020\12\hans-reniers-lQGJCMY5qcM-unsplash.jpg
+Content Type: image/jpeg
+
+Uri: https://www.aqualab.pt/files/uploads/2020/06/shutterstock_259718315-Colheita-ao-domicilio-2.jpg
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\files\uploads\2020\06\shutterstock_259718315-Colheita-ao-domicilio-2.jpg
+Content Type: image/jpeg
+
+Uri: https://www.aqualab.pt/en/feed/
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\en\feed\index.htm.rss
+Content Type: application/rss+xml
+
+Uri: https://www.aqualab.pt/en/comments/feed/
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\en\comments\feed\index.htm.rss
+Content Type: application/rss+xml
+
+Uri: https://www.aqualab.pt/en/wp-json/
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\en\wp-json\index.htm.json
+Content Type: application/json
+
+Uri: https://www.aqualab.pt/en/wp-json/wp/v2/pages/246
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\en\wp-json\wp\v2\pages\246.json
+Content Type: application/json
+
+Uri: https://www.aqualab.pt/en/wp-json/oembed/1.0/embed?url=https:%2F%2Fwww.aqualab.pt%2Fen%2F
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\en\wp-json\oembed\1.0\embed.json
+Content Type: application/json
+
+Uri: https://www.aqualab.pt/en/wp-json/oembed/1.0/embed?url=https:%2F%2Fwww.aqualab.pt%2Fen%2F&format=xml
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\en\wp-json\oembed\1.0\embed.xml
+Content Type: text/xml
+
+Uri: https://www.aqualab.pt/en/contacts/
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\en\contacts\index.htm
+Content Type: text/html
+
+Uri: https://www.aqualab.pt/en/test-results/
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\en\test-results\index.htm
+Content Type: text/html
+
+Uri: https://www.aqualab.pt/en/analysis-departments/clinical-department/sampling-collection-locations/
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\en\analysis-departments\clinical-department\sampling-collection-locations\index.htm
+Content Type: text/html
+
+Uri: https://www.aqualab.pt/en/analysis-departments/clinical-department/
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\en\analysis-departments\clinical-department\index.htm
+Content Type: text/html
+
+Uri: https://www.aqualab.pt/en/analysis-departments/water-and-food-department/
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\en\analysis-departments\water-and-food-department\index.htm
+Content Type: text/html
+
+Uri: https://www.aqualab.pt/en/about-us/history/
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\en\about-us\history\index.htm
+Content Type: text/html
+
+Uri: https://www.aqualab.pt/en/about-us/company/
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\en\about-us\company\index.htm
+Content Type: text/html
+
+Uri: https://www.aqualab.pt/en/about-us/structure/
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\en\about-us\structure\index.htm
+Content Type: text/html
+
+Uri: https://www.aqualab.pt/en/about-us/albufeira-team/
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\en\about-us\albufeira-team\index.htm
+Content Type: text/html
+
+Uri: https://www.aqualab.pt/en/about-us/portimao-team/
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\en\about-us\portimao-team\index.htm
+Content Type: text/html
+
+Uri: https://www.aqualab.pt/en/about-us/partners/
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\en\about-us\partners\index.htm
+Content Type: text/html
+
+Uri: https://www.aqualab.pt/en/about-us/useful-links/
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\en\about-us\useful-links\index.htm
+Content Type: text/html
+
+Uri: https://www.aqualab.pt/en/about-us/recruitment/
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\en\about-us\recruitment\index.htm
+Content Type: text/html
+
+Uri: https://www.aqualab.pt/en/quality/quality-policy/
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\en\quality\quality-policy\index.htm
+Content Type: text/html
+
+Uri: https://www.aqualab.pt/en/quality/quality-control/
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\en\quality\quality-control\index.htm
+Content Type: text/html
+
+Uri: https://www.aqualab.pt/en/quality/certification/
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\en\quality\certification\index.htm
+Content Type: text/html
+
+Uri: https://www.aqualab.pt/en/quality/accreditation/
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\en\quality\accreditation\index.htm
+Content Type: text/html
+
+Uri: https://www.aqualab.pt/en/analysis-departments/clinical-department/types-of-analysis/
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\en\analysis-departments\clinical-department\types-of-analysis\index.htm
+Content Type: text/html
+
+Uri: https://www.aqualab.pt/en/analysis-departments/clinical-department/scheduling-covid-19-tests/
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\en\analysis-departments\clinical-department\scheduling-covid-19-tests\index.htm
+Content Type: text/html
+
+Uri: https://www.aqualab.pt/en/analysis-departments/clinical-department/analysis-profiles/
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\en\analysis-departments\clinical-department\analysis-profiles\index.htm
+Content Type: text/html
+
+Uri: https://www.aqualab.pt/en/analysis-departments/clinical-department/home-collection-services/
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\en\analysis-departments\clinical-department\home-collection-services\index.htm
+Content Type: text/html
+
+Uri: https://www.aqualab.pt/en/analysis-departments/clinical-department/entity-and-insurance-agreements/
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\en\analysis-departments\clinical-department\entity-and-insurance-agreements\index.htm
+Content Type: text/html
+
+Uri: https://www.aqualab.pt/en/analysis-departments/clinical-department/documents-information/
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\en\analysis-departments\clinical-department\documents-information\index.htm
+Content Type: text/html
+
+Uri: https://www.aqualab.pt/en/analysis-departments/water-and-food-department/types-of-analysis/
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\en\analysis-departments\water-and-food-department\types-of-analysis\index.htm
+Content Type: text/html
+
+Uri: https://www.aqualab.pt/en/analysis-departments/water-and-food-department/legislation/
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\en\analysis-departments\water-and-food-department\legislation\index.htm
+Content Type: text/html
+
+Uri: https://www.aqualab.pt/en/analysis-departments/water-and-food-department/treatment-suggestions/
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\en\analysis-departments\water-and-food-department\treatment-suggestions\index.htm
+Content Type: text/html
+
+Uri: https://www.aqualab.pt/en/analysis-departments/water-and-food-department/legionella-risk-evaluation/
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\en\analysis-departments\water-and-food-department\legionella-risk-evaluation\index.htm
+Content Type: text/html
+
+Uri: https://www.aqualab.pt/en/analysis-departments/water-and-food-department/water-analysis-budget-request/
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\en\analysis-departments\water-and-food-department\water-analysis-budget-request\index.htm
+Content Type: text/html
+
+Uri: https://www.aqualab.pt/en/analysis-departments/doctors/
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\en\analysis-departments\doctors\index.htm
+Content Type: text/html
+
+Uri: https://www.aqualab.pt/en/analysis-departments/doctors/innovative-tests/
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\en\analysis-departments\doctors\innovative-tests\index.htm
+Content Type: text/html
+
+Uri: https://www.aqualab.pt/en/analysis-departments/doctors/diagnosis-algorithms/
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\en\analysis-departments\doctors\diagnosis-algorithms\index.htm
+Content Type: text/html
+
+Uri: https://www.aqualab.pt/en/analysis-departments/doctors/publications-scientific-articles-and-technical-information/
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\en\analysis-departments\doctors\publications-scientific-articles-and-technical-information\index.htm
+Content Type: text/html
+
+Uri: https://www.aqualab.pt/en/news/
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\en\news\index.htm
+Content Type: text/html
+
+Uri: https://www.aqualab.pt/en/privacy-policy/
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\en\privacy-policy\index-1.htm
+Content Type: text/html
+
+Uri: https://www.aqualab.pt/en/analysis-departments/
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\en\analysis-departments\index.htm
+Content Type: text/html
+
+Uri: https://www.aqualab.pt/en/noticias/panorama-prenatal-test/
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\en\noticias\panorama-prenatal-test\index.htm
+Content Type: text/html
+
+Uri: https://www.aqualab.pt/en/noticias/aqualab-sme-of-excellence/
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\en\noticias\aqualab-sme-of-excellence\index.htm
+Content Type: text/html
+
+Uri: https://www.aqualab.pt/en/noticias/food-intolerance-tests/
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\en\noticias\food-intolerance-tests\index.htm
+Content Type: text/html
+
+Uri: https://www.aqualab.pt/en/join-our-newsletter/
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\en\join-our-newsletter\index.htm
+Content Type: text/html
+
+Uri: https://www.aqualab.pt/en/about-us/mission-and-values/
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\en\about-us\mission-and-values\index.htm
+Content Type: text/html
+
+Uri: https://www.aqualab.pt/en/conhecimento/
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\en\conhecimento\index.htm
+Content Type: text/html
+
+Uri: https://www.aqualab.pt/en/politica-de-cookies/
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\en\politica-de-cookies\index.htm
+Content Type: text/html
+
+Uri: https://www.aqualab.pt/en/politica-de-reembolsos/
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\en\politica-de-reembolsos\index.htm
+Content Type: text/html
+
+Uri: https://www.aqualab.pt/en/termos-e-condicoes/
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\en\termos-e-condicoes\index.htm
+Content Type: text/html
+
+Uri: https://www.aqualab.pt/files/uploads/2020/01/5ec88a75f7a886c4b06bece4d99a645cce4e68c3.jpg
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\files\uploads\2020\01\5ec88a75f7a886c4b06bece4d99a645cce4e68c3.jpg
+Content Type: image/jpeg
+
+Uri: https://www.aqualab.pt/files/uploads/2020/01/5106946ded18f511e4d3d393d099cfe0fd0bc96f-500x500.jpg
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\files\uploads\2020\01\5106946ded18f511e4d3d393d099cfe0fd0bc96f-500x500.jpg
+Content Type: image/jpeg
+
+Uri: https://www.aqualab.pt/files/uploads/2020/02/aaf94bbb2ab02dfbf51bf3dd8f96a10f3cff2084-500x500.jpg
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\files\uploads\2020\02\aaf94bbb2ab02dfbf51bf3dd8f96a10f3cff2084-500x500.jpg
+Content Type: image/jpeg
+
+Uri: https://www.aqualab.pt/files/uploads/2020/01/a0316dadd8b9f56a1774ec9ff03bb8d4f6e7275b-500x500.jpg
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\files\uploads\2020\01\a0316dadd8b9f56a1774ec9ff03bb8d4f6e7275b-500x500.jpg
+Content Type: image/jpeg
+
+Uri: https://www.aqualab.pt/conhecimento/water-microbiology/
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\conhecimento\water-microbiology\index.htm
+Content Type: text/html
+
+Uri: https://www.aqualab.pt/conhecimento/o-que-necessita-saber-sobre-a-hepatite-c/
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\conhecimento\o-que-necessita-saber-sobre-a-hepatite-c\index.htm
+Content Type: text/html
+
+Uri: https://www.aqualab.pt/conhecimento/testes-serologicos-covid-19-o-que-sao-e-para-que-servem/
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\conhecimento\testes-serologicos-covid-19-o-que-sao-e-para-que-servem\index.htm
+Content Type: text/html
+
+Uri: https://www.aqualab.pt/files/uploads/2020/06/shutterstock_60284035-E.-coli-scaled-500x500.jpg
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\files\uploads\2020\06\shutterstock_60284035-E.-coli-scaled-500x500.jpg
+Content Type: image/jpeg
+
+Uri: https://www.aqualab.pt/files/uploads/2020/06/shutterstock_268378835-Vírus-Hepatite-500x500.jpg
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\files\uploads\2020\06\shutterstock_268378835-Vírus-Hepatite-500x500.jpg
+Content Type: image/jpeg
+
+Uri: https://www.aqualab.pt/files/uploads/2022/05/aqualab_testes_sorologicos-1-500x500.jpg
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\files\uploads\2022\05\aqualab_testes_sorologicos-1-500x500.jpg
+Content Type: image/jpeg
+
+Uri: https://developers.google.com/maps/
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\maps\index.htm
+Content Type: text/html
+
+Uri: https://consent.google.com/ml?continue=https://www.google.com/&gl=PT&m=0&pc=shp&uxe=eomcs2&hl=ru&src=1
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\ml.html
+Content Type: text/html
+
+Uri: https://www.aqualab.pt/files/themes/aqualab_theme/assets/fonts/gilroy/gilroy-bold.woff2
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\files\themes\aqualab_theme\assets\fonts\gilroy\gilroy-bold.woff2
+Content Type: font/woff2
+
+Uri: https://www.aqualab.pt/files/themes/aqualab_theme/assets/fonts/gilroy/gilroy-bold.woff
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\files\themes\aqualab_theme\assets\fonts\gilroy\gilroy-bold.woff
+Content Type: font/woff
+
+Uri: https://www.aqualab.pt/files/themes/aqualab_theme/assets/fonts/gilroy/gilroy-bold.otf
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\files\themes\aqualab_theme\assets\fonts\gilroy\gilroy-bold.otf
+Content Type: font/otf
+
+Uri: https://www.aqualab.pt/files/themes/aqualab_theme/assets/fonts/gilroy/gilroy-semibold.woff2
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\files\themes\aqualab_theme\assets\fonts\gilroy\gilroy-semibold.woff2
+Content Type: font/woff2
+
+Uri: https://www.aqualab.pt/files/themes/aqualab_theme/assets/fonts/gilroy/gilroy-semibold.woff
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\files\themes\aqualab_theme\assets\fonts\gilroy\gilroy-semibold.woff
+Content Type: font/woff
+
+Uri: https://www.aqualab.pt/files/themes/aqualab_theme/assets/fonts/gilroy/gilroy-semibold.otf
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\files\themes\aqualab_theme\assets\fonts\gilroy\gilroy-semibold.otf
+Content Type: font/otf
+
+Uri: https://www.aqualab.pt/files/themes/aqualab_theme/assets/images/small_arrow_down.svg
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\files\themes\aqualab_theme\assets\images\small_arrow_down.svg
+Content Type: image/svg+xml
+
+Uri: https://www.aqualab.pt/files/themes/aqualab_theme/assets/images/small_arrow_down_light.svg
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\files\themes\aqualab_theme\assets\images\small_arrow_down_light.svg
+Content Type: image/svg+xml
+
+Uri: https://www.aqualab.pt/files/themes/aqualab_theme/assets/images/homepage_slider_graphic.svg
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\files\themes\aqualab_theme\assets\images\homepage_slider_graphic.svg
+Content Type: image/svg+xml
+
+Uri: https://www.aqualab.pt/files/themes/aqualab_theme/assets/images/homepage_slider_graphic_2.svg
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\files\themes\aqualab_theme\assets\images\homepage_slider_graphic_2.svg
+Content Type: image/svg+xml
+
+Uri: https://www.aqualab.pt/files/themes/aqualab_theme/assets/images/controls-play.svg
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\files\themes\aqualab_theme\assets\images\controls-play.svg
+Content Type: image/svg+xml
+
+Uri: https://www.aqualab.pt/files/themes/aqualab_theme/assets/images/controls-pause.svg
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\files\themes\aqualab_theme\assets\images\controls-pause.svg
+Content Type: image/svg+xml
+
+Uri: https://www.aqualab.pt/files/themes/aqualab_theme/assets/images/controls-mute.svg
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\files\themes\aqualab_theme\assets\images\controls-mute.svg
+Content Type: image/svg+xml
+
+Uri: https://www.aqualab.pt/files/themes/aqualab_theme/assets/images/controls-unmute.svg
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\files\themes\aqualab_theme\assets\images\controls-unmute.svg
+Content Type: image/svg+xml
+
+Uri: https://www.aqualab.pt/files/themes/aqualab_theme/assets/images/controls-fullscreen.svg
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\files\themes\aqualab_theme\assets\images\controls-fullscreen.svg
+Content Type: image/svg+xml
+
+Uri: https://www.aqualab.pt/files/themes/aqualab_theme/assets/images/video_loader.gif
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\files\themes\aqualab_theme\assets\images\video_loader.gif
+Content Type: image/gif
+
+Uri: https://www.aqualab.pt/files/themes/aqualab_theme/assets/images/phone-dark.svg
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\files\themes\aqualab_theme\assets\images\phone-dark.svg
+Content Type: image/svg+xml
+
+Uri: https://www.aqualab.pt/files/themes/aqualab_theme/assets/images/fax.svg
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\files\themes\aqualab_theme\assets\images\fax.svg
+Content Type: image/svg+xml
+
+Uri: https://www.aqualab.pt/files/themes/aqualab_theme/assets/images/email-dark.svg
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\files\themes\aqualab_theme\assets\images\email-dark.svg
+Content Type: image/svg+xml
+
+Uri: https://www.aqualab.pt/files/themes/aqualab_theme/assets/images/gallery_arrow_left_white.svg
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\files\themes\aqualab_theme\assets\images\gallery_arrow_left_white.svg
+Content Type: image/svg+xml
+
+Uri: https://www.aqualab.pt/files/themes/aqualab_theme/assets/images/gallery_arrow_right_white.svg
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\files\themes\aqualab_theme\assets\images\gallery_arrow_right_white.svg
+Content Type: image/svg+xml
+
+Uri: https://www.aqualab.pt/files/themes/aqualab_theme/assets/images/close.svg
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\files\themes\aqualab_theme\assets\images\close.svg
+Content Type: image/svg+xml
+
+Uri: https://www.aqualab.pt/files/themes/aqualab_theme/assets/images/gallery_arrow_left.svg
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\files\themes\aqualab_theme\assets\images\gallery_arrow_left.svg
+Content Type: image/svg+xml
+
+Uri: https://www.aqualab.pt/files/themes/aqualab_theme/assets/images/gallery_arrow_right.svg
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\files\themes\aqualab_theme\assets\images\gallery_arrow_right.svg
+Content Type: image/svg+xml
+
+Uri: https://www.aqualab.pt/files/themes/aqualab_theme/assets/images/arrow_down_orange.svg
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\files\themes\aqualab_theme\assets\images\arrow_down_orange.svg
+Content Type: image/svg+xml
+
+Uri: https://www.aqualab.pt/files/themes/aqualab_theme/assets/images/error404_left.svg
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\files\themes\aqualab_theme\assets\images\error404_left.svg
+Content Type: image/svg+xml
+
+Uri: https://www.aqualab.pt/files/themes/aqualab_theme/assets/images/error404_right.svg
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\files\themes\aqualab_theme\assets\images\error404_right.svg
+Content Type: image/svg+xml
+
+Uri: https://www.aqualab.pt/files/themes/aqualab_theme/assets/images/resultado_positivo.svg
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\files\themes\aqualab_theme\assets\images\resultado_positivo.svg
+Content Type: image/svg+xml
+
+Uri: https://www.aqualab.pt/files/themes/aqualab_theme/assets/images/resultado_negativo.svg
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\files\themes\aqualab_theme\assets\images\resultado_negativo.svg
+Content Type: image/svg+xml
+
+Uri: https://www.aqualab.pt/files/themes/aqualab_theme/assets/images/resultado_inconclusivo.svg
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\files\themes\aqualab_theme\assets\images\resultado_inconclusivo.svg
+Content Type: image/svg+xml
+
+Uri: https://www.aqualab.pt/files/themes/aqualab_theme/assets/images/arrow_down.svg
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\files\themes\aqualab_theme\assets\images\arrow_down.svg
+Content Type: image/svg+xml
+
+Uri: https://www.aqualab.pt/files/themes/aqualab_theme/assets/images/error404_top.svg
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\files\themes\aqualab_theme\assets\images\error404_top.svg
+Content Type: image/svg+xml
+
+Uri: https://www.aqualab.pt/files/themes/aqualab_theme/assets/images/error404_bottom.svg
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\files\themes\aqualab_theme\assets\images\error404_bottom.svg
+Content Type: image/svg+xml
+
+Uri: https://aqualab.kobudev.com/politica-de-privacidade/
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\politica-de-privacidade\index.htm
+Content Type: text/html
+
+Uri: https://www.aqualab.pt/wp-json/wp/v2/pages/1098
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\wp-json\wp\v2\pages\1098.json
+Content Type: application/json
+
+Uri: https://www.aqualab.pt/wp-json/oembed/1.0/embed?url=https:%2F%2Fwww.aqualab.pt%2Fcontactos%2F
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\wp-json\oembed\1.0\embed-1.json
+Content Type: application/json
+
+Uri: https://www.aqualab.pt/wp-json/oembed/1.0/embed?url=https:%2F%2Fwww.aqualab.pt%2Fcontactos%2F&format=xml
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\wp-json\oembed\1.0\embed-1.xml
+Content Type: text/xml
+
+Uri: https://www.aqualab.pt/wp-json/wp/v2/pages/1066
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\wp-json\wp\v2\pages\1066.json
+Content Type: application/json
+
+Uri: https://www.aqualab.pt/wp-json/oembed/1.0/embed?url=https:%2F%2Fwww.aqualab.pt%2Fresultados-de-analises%2F
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\wp-json\oembed\1.0\embed-2.json
+Content Type: application/json
+
+Uri: https://www.aqualab.pt/wp-json/oembed/1.0/embed?url=https:%2F%2Fwww.aqualab.pt%2Fresultados-de-analises%2F&format=xml
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\wp-json\oembed\1.0\embed-2.xml
+Content Type: text/xml
+
+Uri: http://88.157.84.133:7998/web/webappolo.exe/
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\web\webappolo.exe\index.htm
+Content Type: text/html
+
+Uri: https://aqualabportimao.wappolo.com/web/webappolo.exe/
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\web\webappolo.exe\index-1.htm
+Content Type: text/html
+
+Uri: http://alweb.aqualab.ambidata.pt/login.aspx?returnUrl=%2fdefault.aspx
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\login.aspx.html
+Content Type: text/html
+
+Uri: https://www.aqualab.pt/files/uploads/2020/01/b7940aebe27db7fada53cd18b8310d3931781d76.jpg
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\files\uploads\2020\01\b7940aebe27db7fada53cd18b8310d3931781d76.jpg
+Content Type: image/jpeg
+
+Uri: https://www.aqualab.pt/wp-json/wp/v2/pages/1081
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\wp-json\wp\v2\pages\1081.json
+Content Type: application/json
+
+Uri: https://www.aqualab.pt/wp-json/oembed/1.0/embed?url=https:%2F%2Fwww.aqualab.pt%2Fdepartamento-de-analises%2Fdepartamento-clinico%2Funidades-de-colheita%2F
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\wp-json\oembed\1.0\embed-3.json
+Content Type: application/json
+
+Uri: https://www.aqualab.pt/wp-json/oembed/1.0/embed?url=https:%2F%2Fwww.aqualab.pt%2Fdepartamento-de-analises%2Fdepartamento-clinico%2Funidades-de-colheita%2F&format=xml
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\wp-json\oembed\1.0\embed-3.xml
+Content Type: text/xml
+
+Uri: https://www.aqualab.pt/pages/unidades-de-colheita/albufeira/
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\pages\unidades-de-colheita\albufeira\index.htm
+Content Type: text/html
+
+Uri: https://www.aqualab.pt/pages/unidades-de-colheita/algoz/
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\pages\unidades-de-colheita\algoz\index.htm
+Content Type: text/html
+
+Uri: https://www.aqualab.pt/pages/unidades-de-colheita/armacao-de-pera/
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\pages\unidades-de-colheita\armacao-de-pera\index.htm
+Content Type: text/html
+
+Uri: https://www.aqualab.pt/pages/unidades-de-colheita/boliqueime/
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\pages\unidades-de-colheita\boliqueime\index.htm
+Content Type: text/html
+
+Uri: https://www.aqualab.pt/pages/unidades-de-colheita/lagoa/
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\pages\unidades-de-colheita\lagoa\index.htm
+Content Type: text/html
+
+Uri: https://www.aqualab.pt/pages/unidades-de-colheita/lagos/
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\pages\unidades-de-colheita\lagos\index.htm
+Content Type: text/html
+
+Uri: https://www.aqualab.pt/pages/unidades-de-colheita/loule/
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\pages\unidades-de-colheita\loule\index.htm
+Content Type: text/html
+
+Uri: https://www.aqualab.pt/pages/unidades-de-colheita/loule-neuroloule/
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\pages\unidades-de-colheita\loule-neuroloule\index.htm
+Content Type: text/html
+
+Uri: https://www.aqualab.pt/pages/unidades-de-colheita/paderne/
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\pages\unidades-de-colheita\paderne\index.htm
+Content Type: text/html
+
+Uri: https://www.aqualab.pt/pages/unidades-de-colheita/pera/
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\pages\unidades-de-colheita\pera\index.htm
+Content Type: text/html
+
+Uri: https://www.aqualab.pt/pages/unidades-de-colheita/sao-bartolomeu-de-messines/
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\pages\unidades-de-colheita\sao-bartolomeu-de-messines\index.htm
+Content Type: text/html
+
+Uri: https://www.aqualab.pt/pages/unidades-de-colheita/s-b-messines-osteoreuma/
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\pages\unidades-de-colheita\s-b-messines-osteoreuma\index.htm
+Content Type: text/html
+
+Uri: https://www.aqualab.pt/pages/unidades-de-colheita/sao-marcos-da-serra/
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\pages\unidades-de-colheita\sao-marcos-da-serra\index.htm
+Content Type: text/html
+
+Uri: https://www.aqualab.pt/pages/unidades-de-colheita/silves-lab-2/
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\pages\unidades-de-colheita\silves-lab-2\index.htm
+Content Type: text/html
+
+Uri: https://www.aqualab.pt/pages/unidades-de-colheita/aljezur/
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\pages\unidades-de-colheita\aljezur\index.htm
+Content Type: text/html
+
+Uri: https://www.aqualab.pt/pages/unidades-de-colheita/alvor/
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\pages\unidades-de-colheita\alvor\index.htm
+Content Type: text/html
+
+Uri: https://www.aqualab.pt/pages/unidades-de-colheita/lagos-centro-enfermagem-lagos/
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\pages\unidades-de-colheita\lagos-centro-enfermagem-lagos\index.htm
+Content Type: text/html
+
+Uri: https://www.aqualab.pt/pages/unidades-de-colheita/mexilhoeira-grande/
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\pages\unidades-de-colheita\mexilhoeira-grande\index.htm
+Content Type: text/html
+
+Uri: https://www.aqualab.pt/pages/unidades-de-colheita/parchal/
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\pages\unidades-de-colheita\parchal\index.htm
+Content Type: text/html
+
+Uri: https://www.aqualab.pt/pages/unidades-de-colheita/porches-centro-social/
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\pages\unidades-de-colheita\porches-centro-social\index.htm
+Content Type: text/html
+
+Uri: https://www.aqualab.pt/pages/unidades-de-colheita/portimao-laboratorio-central/
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\pages\unidades-de-colheita\portimao-laboratorio-central\index.htm
+Content Type: text/html
+
+Uri: https://www.livroreclamacoes.pt/Inicio/
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\Inicio\index.htm
+Content Type: text/html
+
+Uri: https://aqualab.kobudev.com/en/privacy-policy/
+File Name: C:\Downloaded Web Sites\www.aqualab.pt\en\privacy-policy\index.htm
+Content Type: text/html
+
